@@ -5,6 +5,7 @@ from functools import cached_property
 from hashlib import md5
 from pathlib import Path
 from typing import List, Optional
+from uuid import uuid4
 
 import pexpect
 import yaml
@@ -23,6 +24,18 @@ from patchagent.lsp.language import LanguageServer
 from patchagent.parser import Sanitizer, SanitizerReport, parse_sanitizer_report
 from patchagent.parser.unknown import UnknownSanitizerReport
 from patchagent.utils import bear_path
+
+# Default ASAN_OPTIONS of the OSS-Fuzz base-runner image. `docker run -e`
+# replaces the image value instead of extending it, so any override must start
+# from these defaults to keep replay behavior identical to OSS-Fuzz.
+# Reference: https://github.com/google/oss-fuzz/blob/master/infra/base-images/base-runner/Dockerfile
+OSSFUZZ_DEFAULT_ASAN_OPTIONS = (
+    "alloc_dealloc_mismatch=0:allocator_may_return_null=1:allocator_release_to_os_interval_ms=500:"
+    "check_malloc_usable_size=0:detect_container_overflow=1:detect_odr_violation=0:detect_leaks=1:"
+    "detect_stack_use_after_return=1:fast_unwind_on_fatal=0:handle_abort=1:handle_segv=1:handle_sigill=1:"
+    "max_uar_stack_size_log=16:print_scariness=1:quarantine_size_mb=10:strict_memcmp=1:"
+    "strip_path_prefix=/workspace/:symbolize=1:use_sigaltstack=1:dedup_token_length=3"
+)
 
 
 class OSSFuzzPoC(PoC):
@@ -108,7 +121,12 @@ class OSSFuzzBuilder(Builder):
 
         if not prepared_marker.is_file() or prepared_marker.read_text() != patch:
             if workspace.exists():
-                shutil.rmtree(workspace)
+                try:
+                    shutil.rmtree(workspace)
+                except OSError:
+                    # Failed OSS-Fuzz builds may leave root-owned outputs. Renaming
+                    # only needs write access to the parent directory.
+                    workspace.rename(workspace.with_name(f"{workspace.name}.stale-{uuid4().hex}"))
             shutil.copytree(self.source_path, source_path, symlinks=True)
             shutil.copytree(self.fuzz_tooling_path, fuzz_tooling_path, symlinks=True)
             safe_subprocess_run(["patch", "-p1"], source_path, input=patch.encode())
@@ -146,6 +164,20 @@ class OSSFuzzBuilder(Builder):
         for sanitizer in self.sanitizers:
             self._build(sanitizer, patch)
 
+    def reproduce_command(self, poc: OSSFuzzPoC, sanitizer: Sanitizer) -> List:
+        command: List = ["infra/helper.py", "reproduce"]
+        if sanitizer == Sanitizer.AddressSanitizer:
+            # Leak detection is handled by LeakAddressSanitizer tasks. A separate
+            # leak in the target must not block an ASan repair. Both switches are
+            # required: libFuzzer's flag only disables its own leak check, while
+            # ASAN_OPTIONS also covers the exit-time LSan check and any child
+            # processes spawned by the harness.
+            command.extend(["-e", f"ASAN_OPTIONS={OSSFUZZ_DEFAULT_ASAN_OPTIONS}:detect_leaks=0"])
+        command.extend([self.project, poc.harness_name, poc.path])
+        if sanitizer == Sanitizer.AddressSanitizer:
+            command.extend(["--", "-detect_leaks=0"])
+        return command
+
     def _replay(self, poc: PoC, sanitizer: Sanitizer, patch: str = "") -> Optional[SanitizerReport]:
         self._build(sanitizer, patch)
 
@@ -156,17 +188,8 @@ class OSSFuzzBuilder(Builder):
         logger.info(f"[🔄] Replaying {self.project}/{poc.harness_name} with PoC {poc.path} and patch {self.hash_patch(sanitizer, patch)}")
 
         try:
-            command = ["infra/helper.py", "reproduce"]
-            if sanitizer == Sanitizer.AddressSanitizer:
-                # Leak detection is handled by LeakAddressSanitizer tasks. A
-                # separate leak in the target must not block an ASan repair.
-                asan_options = os.environ.get("ASAN_OPTIONS", "")
-                command.extend(["-e", f"ASAN_OPTIONS={asan_options + ':' if asan_options else ''}detect_leaks=0"])
-            command.extend([self.project, poc.harness_name, poc.path])
-            if sanitizer == Sanitizer.AddressSanitizer:
-                command.extend(["--", "-detect_leaks=0"])
             safe_subprocess_run(
-                command,
+                self.reproduce_command(poc, sanitizer),
                 self.workspace / self.hash_patch(sanitizer, patch) / self.fuzz_tooling_path.name,
                 timeout=self.replay_poc_timeout,
             )
