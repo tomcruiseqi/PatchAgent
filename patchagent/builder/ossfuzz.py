@@ -62,6 +62,7 @@ class OSSFuzzBuilder(Builder):
 
         self.sanitizers = sanitizers
         self.replay_poc_timeout = replay_poc_timeout
+        self._image_built = False
 
     @cached_property
     def fuzz_tooling_path(self) -> Path:
@@ -78,6 +79,8 @@ class OSSFuzzBuilder(Builder):
         return self.workspace / self.hash_patch(sanitizer, patch) / ".build"
 
     def _build_image(self, fuzz_tooling_path: Path, tries: int = 3) -> None:
+        if self._image_built:
+            return
         for _ in range(tries):
             process = subprocess.Popen(
                 ["infra/helper.py", "build_image", "--pull", self.project],
@@ -88,6 +91,7 @@ class OSSFuzzBuilder(Builder):
 
             _, stderr = process.communicate()
             if process.returncode == 0:
+                self._image_built = True
                 return
 
         raise DockerUnavailableError(stderr.decode(errors="ignore"))
@@ -100,12 +104,15 @@ class OSSFuzzBuilder(Builder):
         workspace = self.workspace / self.hash_patch(sanitizer, patch)
         source_path = workspace / self.org_source_path.name
         fuzz_tooling_path = workspace / self.org_fuzz_tooling_path.name
+        prepared_marker = workspace / ".prepared"
 
-        shutil.rmtree(workspace, ignore_errors=True)
-        shutil.copytree(self.source_path, source_path, symlinks=True)
-        shutil.copytree(self.fuzz_tooling_path, fuzz_tooling_path, symlinks=True)
-
-        safe_subprocess_run(["patch", "-p1"], source_path, input=patch.encode())
+        if not prepared_marker.is_file() or prepared_marker.read_text() != patch:
+            if workspace.exists():
+                shutil.rmtree(workspace)
+            shutil.copytree(self.source_path, source_path, symlinks=True)
+            shutil.copytree(self.fuzz_tooling_path, fuzz_tooling_path, symlinks=True)
+            safe_subprocess_run(["patch", "-p1"], source_path, input=patch.encode())
+            prepared_marker.write_text(patch)
 
         self._build_image(fuzz_tooling_path)
 
@@ -149,14 +156,17 @@ class OSSFuzzBuilder(Builder):
         logger.info(f"[🔄] Replaying {self.project}/{poc.harness_name} with PoC {poc.path} and patch {self.hash_patch(sanitizer, patch)}")
 
         try:
+            command = ["infra/helper.py", "reproduce"]
+            if sanitizer == Sanitizer.AddressSanitizer:
+                # Leak detection is handled by LeakAddressSanitizer tasks. A
+                # separate leak in the target must not block an ASan repair.
+                asan_options = os.environ.get("ASAN_OPTIONS", "")
+                command.extend(["-e", f"ASAN_OPTIONS={asan_options + ':' if asan_options else ''}detect_leaks=0"])
+            command.extend([self.project, poc.harness_name, poc.path])
+            if sanitizer == Sanitizer.AddressSanitizer:
+                command.extend(["--", "-detect_leaks=0"])
             safe_subprocess_run(
-                [
-                    "infra/helper.py",
-                    "reproduce",
-                    self.project,
-                    poc.harness_name,
-                    poc.path,
-                ],
+                command,
                 self.workspace / self.hash_patch(sanitizer, patch) / self.fuzz_tooling_path.name,
                 timeout=self.replay_poc_timeout,
             )
@@ -245,24 +255,17 @@ class OSSFuzzBuilder(Builder):
             shell.sendline("exit")
             shell.expect(pexpect.EOF)
 
-            dotpwd = clangd_fuzz_tooling / "build" / "out" / self.project / ".pwd"
-            if dotpwd.is_file() and compile_commands.is_file():
-                workdir = dotpwd.read_text().strip()
-                compile_commands.write_text(
-                    compile_commands.read_text().replace(
-                        workdir,
-                        clangd_source.as_posix(),
-                    ),
-                )
-            else:
-                compile_commands.write_text("[]")
-
-        assert compile_commands.is_file(), "compile_commands.json not found"
-        if compile_commands.read_text(errors="ignore").strip() == "[]":
-            logger.error("[❌] compile_commands.json is empty")
-
         target_compile_commands = clangd_source / "compile_commands.json"
-        shutil.copy(compile_commands, target_compile_commands)
+        dotpwd = clangd_fuzz_tooling / "build" / "out" / self.project / ".pwd"
+        if dotpwd.is_file() and compile_commands.is_file():
+            workdir = dotpwd.read_text().strip()
+            commands_content = compile_commands.read_text().replace(workdir, clangd_source.as_posix())
+        else:
+            commands_content = "[]"
+        target_compile_commands.write_text(commands_content)
+
+        if target_compile_commands.read_text(errors="ignore").strip() == "[]":
+            logger.error("[❌] compile_commands.json is empty")
 
         return clangd_source
 
