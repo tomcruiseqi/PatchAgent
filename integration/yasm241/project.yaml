@@ -1,0 +1,10 @@
+homepage: https://yasm.tortall.net/
+language: c++
+main_repo: https://github.com/yasm/yasm.git
+primary_contact: test@example.invalid
+sanitizers:
+  - address
+fuzzing_engines:
+  - libfuzzer
+architectures:
+  - x86_64

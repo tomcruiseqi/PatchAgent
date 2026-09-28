@@ -1,0 +1,12 @@
+This run checks validation of an already identified fix. Please call
+`validate` now with exactly this patch, preserving every context line and the
+hunk counts. The patch is for the null dereference only:
+
+--- a/libyasm/expr.c
++++ b/libyasm/expr.c
+@@ -994,2 +994,5 @@ yasm_expr__copy_except(const yasm_expr *e, int except)
+ {
++    if (!e)
++        return NULL;
++
+     yasm_expr *n;

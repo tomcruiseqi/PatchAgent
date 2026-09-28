@@ -1,0 +1,7 @@
+diff --git a/libyasm/expr.c b/libyasm/expr.c
+index c2c868e..356ba69 100644
+--- a/libyasm/expr.c
++++ b/libyasm/expr.c
+@@ -995,2 +995,1 @@ yasm_expr__copy_except(const yasm_expr *e, int except)
+-    yasm_expr *n;
+     int i;
