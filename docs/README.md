@@ -14,6 +14,7 @@
 
 ## 相关资料
 
+- [辅助脚本说明](../scripts/README.md)：模型 API 连通性预检的配置与运行方法。
 - [yasm #241 集成验证说明](../integration/yasm241/README.md)
 - [三模型补丁生成对比结果](../results/patchagent-model-comparison-20261117/README.md)：包含汇总、日志、候选补丁和验证记录。
 
