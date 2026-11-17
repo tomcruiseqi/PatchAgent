@@ -1,0 +1,27 @@
+[2026-11-17 09:35:24] [🧱] Building assimp with patch d41d8cd98f00b204e9800998ecf8427e-address
+[2026-11-17 09:36:35] [🔄] Replaying assimp/assimp_fuzzer with PoC /home/qzt/patchagent-campaign-20261117/cases/assimp5763/poc.bin and patch d41d8cd98f00b204e9800998ecf8427e-address
+[2026-11-17 09:36:41] [🔍] Guessed relpath /src/assimp/code/AssetLib/MD3/MD3Loader.cpp -> code/AssetLib/MD3/MD3Loader.cpp
+[2026-11-17 09:36:41] [🔍] Guessed relpath /src/assimp/code/Common/BaseImporter.cpp -> code/Common/BaseImporter.cpp
+[2026-11-17 09:36:41] [🔍] Guessed relpath /src/assimp/code/Common/Importer.cpp -> code/Common/Importer.cpp
+[2026-11-17 09:36:41] [🔍] Guessed relpath /src/assimp/code/Common/Importer.cpp -> code/Common/Importer.cpp
+[2026-11-17 09:36:41] [🔍] Guessed relpath /src/assimp/fuzz/assimp_fuzzer.cc -> fuzz/assimp_fuzzer.cc
+[2026-11-17 09:36:41] [🔍] Guessed relpath /src/llvm-project/compiler-rt/lib/fuzzer/FuzzerLoop.cpp -> None
+[2026-11-17 09:36:41] [🔍] Guessed relpath /src/llvm-project/compiler-rt/lib/fuzzer/FuzzerDriver.cpp -> None
+[2026-11-17 09:36:41] [🔍] Guessed relpath /src/llvm-project/compiler-rt/lib/fuzzer/FuzzerDriver.cpp -> None
+[2026-11-17 09:36:41] [🔍] Guessed relpath /src/llvm-project/compiler-rt/lib/fuzzer/FuzzerMain.cpp -> None
+[2026-11-17 09:36:41] [🔍] Guessed relpath /src/llvm-project/compiler-rt/lib/asan/asan_new_delete.cpp -> None
+[2026-11-17 09:36:41] [🔍] Guessed relpath /usr/local/include/c++/v1/__new/allocate.h -> None
+[2026-11-17 09:36:41] [🔍] Guessed relpath /usr/local/include/c++/v1/__memory/allocator.h -> None
+[2026-11-17 09:36:41] [🔍] Guessed relpath /usr/local/include/c++/v1/__memory/allocate_at_least.h -> None
+[2026-11-17 09:36:41] [🔍] Guessed relpath /usr/local/include/c++/v1/__vector/vector.h -> None
+[2026-11-17 09:36:41] [🔍] Guessed relpath /usr/local/include/c++/v1/__vector/vector.h -> None
+[2026-11-17 09:36:41] [🔍] Guessed relpath /src/assimp/code/AssetLib/MD3/MD3Loader.cpp -> code/AssetLib/MD3/MD3Loader.cpp
+[2026-11-17 09:36:41] [🔍] Guessed relpath /src/assimp/code/Common/BaseImporter.cpp -> code/Common/BaseImporter.cpp
+[2026-11-17 09:36:41] [🔍] Guessed relpath /src/assimp/code/Common/Importer.cpp -> code/Common/Importer.cpp
+[2026-11-17 09:36:41] [🔍] Guessed relpath /src/assimp/code/Common/Importer.cpp -> code/Common/Importer.cpp
+[2026-11-17 09:36:41] [🔍] Guessed relpath /src/assimp/fuzz/assimp_fuzzer.cc -> fuzz/assimp_fuzzer.cc
+[2026-11-17 09:36:41] [🔍] Guessed relpath /src/llvm-project/compiler-rt/lib/fuzzer/FuzzerLoop.cpp -> None
+[2026-11-17 09:36:41] [🔍] Guessed relpath /src/llvm-project/compiler-rt/lib/fuzzer/FuzzerDriver.cpp -> None
+[2026-11-17 09:36:41] [🔍] Guessed relpath /src/llvm-project/compiler-rt/lib/fuzzer/FuzzerDriver.cpp -> None
+[2026-11-17 09:36:41] [🔍] Guessed relpath /src/llvm-project/compiler-rt/lib/fuzzer/FuzzerMain.cpp -> None
+{"case_id": "assimp5763", "status": "Bug detected", "report_file": "/home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/preflight/assimp5763-baseline.json"}

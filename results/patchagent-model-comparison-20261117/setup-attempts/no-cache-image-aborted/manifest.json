@@ -1,0 +1,154 @@
+{
+  "campaign_started_at": "2026-11-17T09:12:08+08:00",
+  "remote_host": "192.168.0.230",
+  "runner": "PatchAgent one-agent deterministic configuration",
+  "patchagent_version": "1.1.0",
+  "python_version": "3.14.4",
+  "platform": "Linux-7.0.0-43-generic-x86_64-with-glibc2.43",
+  "models": [
+    {
+      "id": "deepseek-flash-cyber",
+      "name": "DeepSeek Flash Cyber",
+      "provider": "deepseek",
+      "base_url": "https://api.deepseek.com/v1",
+      "api_key_env": "DEEPSEEK_API_KEY",
+      "model_name": "deepseek-flash-cyber",
+      "max_tokens": 393216,
+      "context_window": 1048576,
+      "timeout": 900,
+      "supports_tools": true,
+      "max_retries": 3,
+      "extra": {
+        "reasoning_effort": "low",
+        "requests_per_minute": 240
+      }
+    },
+    {
+      "id": "deepseek-flash",
+      "name": "DeepSeek Flash",
+      "provider": "openai_compatible",
+      "base_url": "https://api.deepseek.com/v1",
+      "api_key_env": "DEEPSEEK_API_KEY",
+      "model_name": "deepseek-flash",
+      "max_tokens": 393216,
+      "context_window": 1048576,
+      "timeout": 600,
+      "supports_tools": true,
+      "max_retries": 3,
+      "extra": {
+        "reasoning_effort": "low",
+        "requests_per_minute": 240
+      }
+    },
+    {
+      "id": "glm-5.3",
+      "name": "GLM-5.3",
+      "provider": "openai_compatible",
+      "base_url": "https://api.icompify.com/v1",
+      "api_key_env": "GLM_API_KEY",
+      "model_name": "glm-5.3",
+      "max_tokens": 131072,
+      "context_window": 1048576,
+      "timeout": 1200,
+      "supports_tools": true,
+      "max_retries": 3,
+      "extra": {
+        "reasoning_effort": "low",
+        "requests_per_minute": 240
+      }
+    }
+  ],
+  "cases": {
+    "yasm241": {
+      "project": "yasm241",
+      "source": "yasm",
+      "poc": "poc.asm",
+      "harness": "yasm_fuzzer",
+      "source_revision": "721134a8aee87a94f19b53c6dc43a956427973a0",
+      "source_path": "/home/qzt/patchagent-campaign-20261117/cases/yasm241/yasm",
+      "poc_path": "/home/qzt/patchagent-campaign-20261117/cases/yasm241/poc.asm",
+      "poc_sha256": "fd10bebb241000b207f39309c6259daee54e1324919a99426c4ef3c91c007df8",
+      "poc_bytes": 51
+    },
+    "yasm242": {
+      "project": "yasm241",
+      "source": "yasm",
+      "poc": "poc.asm",
+      "harness": "yasm_fuzzer",
+      "source_revision": "dfc1c9e84142ae84b976dd863a11a9d95528210f",
+      "source_path": "/home/qzt/patchagent-campaign-20261117/cases/yasm242/yasm",
+      "poc_path": "/home/qzt/patchagent-campaign-20261117/cases/yasm242/poc.asm",
+      "poc_sha256": "b7a393be9014a12d2d9d9001691c8d135f435313149e8dba58ef8925863703c5",
+      "poc_bytes": 45
+    },
+    "yasm243": {
+      "project": "yasm241",
+      "source": "yasm",
+      "poc": "poc.asm",
+      "harness": "yasm_fuzzer",
+      "source_revision": "dfc1c9e84142ae84b976dd863a11a9d95528210f",
+      "source_path": "/home/qzt/patchagent-campaign-20261117/cases/yasm243/yasm",
+      "poc_path": "/home/qzt/patchagent-campaign-20261117/cases/yasm243/poc.asm",
+      "poc_sha256": "48c995e195c13f4d6a6c691b9d0b07a941197ff6348f9ec5890d987940aa3d7b",
+      "poc_bytes": 7
+    },
+    "assimp5763": {
+      "project": "assimp",
+      "source": "assimp",
+      "poc": "poc.bin",
+      "harness": "assimp_fuzzer",
+      "source_revision": "d468e633b1b5cf20b893ef0315006fa6b901ca8d",
+      "source_path": "/home/qzt/patchagent-campaign-20261117/cases/assimp5763/assimp",
+      "poc_path": "/home/qzt/patchagent-campaign-20261117/cases/assimp5763/poc.bin",
+      "poc_sha256": "7bf4beaa16f880a63237066ffd81bcf0e0849d163a601cb145a404fb51a485f7",
+      "poc_bytes": 15170
+    },
+    "assimp5764": {
+      "project": "assimp",
+      "source": "assimp",
+      "poc": "poc.bin",
+      "harness": "assimp_fuzzer",
+      "source_revision": "3bd98611d70e973b4f62cccc8e17519984d07588",
+      "source_path": "/home/qzt/patchagent-campaign-20261117/cases/assimp5764/assimp",
+      "poc_path": "/home/qzt/patchagent-campaign-20261117/cases/assimp5764/poc.bin",
+      "poc_sha256": "04a82d30621f0abbaa01563862bf382bc7e24e383b46541a314049d84cfba14c",
+      "poc_bytes": 151384
+    },
+    "assimp5765": {
+      "project": "assimp",
+      "source": "assimp",
+      "poc": "poc.bin",
+      "harness": "assimp_fuzzer",
+      "source_revision": "4024726eca89331503bdab33d0b9186e901bbc45",
+      "source_path": "/home/qzt/patchagent-campaign-20261117/cases/assimp5765/assimp",
+      "poc_path": "/home/qzt/patchagent-campaign-20261117/cases/assimp5765/poc.bin",
+      "poc_sha256": "21f17d6f42cb80ad7b5b2a237cce4c49d9c5dd45ef4ce0cfa12606abe167c842",
+      "poc_bytes": 170
+    }
+  },
+  "protocol": {
+    "runs": "one run per model per case",
+    "order": [
+      "models in models.yaml order",
+      "cases in declaration order"
+    ],
+    "temperature": 0,
+    "max_iterations": 30,
+    "counterexample_num": 0,
+    "auto_hint": false,
+    "sanitizer": "AddressSanitizer",
+    "workspace_policy": "shared only within the same case to reuse identical build artifacts; run logs and candidates remain per model and case",
+    "interaction_count_definition": "LangChain chat-model callback starts; automatic provider retries are not separately counted",
+    "candidate_count_definition": "non-empty patch strings sent to the PatchAgent validate tool; unique counts use SHA-256 per run",
+    "tool_count_definition": "tool invocations logged in PatchAgent context messages",
+    "baseline_preflight": {
+      "yasm243": "preflight/yasm243-baseline-reproduce.json"
+    },
+    "secrets_file": "/home/qzt/secrets.env",
+    "secret_values_written": false
+  },
+  "notes": {
+    "yasm243": "The supplied case directory had no PoC. A minimal input was derived from the vulnerable lexer path and recorded as cases/yasm243/poc.asm; its baseline reproduction result is preserved separately."
+  },
+  "output_root": "/home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091208+0800"
+}

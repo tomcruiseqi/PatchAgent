@@ -1,0 +1,10 @@
+--- a/code/AssetLib/MD3/MD3Loader.cpp
++++ b/code/AssetLib/MD3/MD3Loader.cpp
+@@ -387,6 +387,7 @@
+     if (pcHeader->NUM_FRAMES <= configFrameID)
+         throw DeadlyImportError("The requested frame is not existing the file");
+ }
+ 
+ // ------------------------------------------------------------------------------------------------
++// validate the surface offsets
+ void MD3Importer::ValidateSurfaceHeaderOffsets(const MD3::Surface *pcSurf) {

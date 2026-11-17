@@ -1,0 +1,37 @@
+{
+  "model": {
+    "id": "deepseek-flash",
+    "name": "DeepSeek Flash",
+    "provider": "openai_compatible",
+    "base_url": "https://api.deepseek.com/v1",
+    "api_key_env": "DEEPSEEK_API_KEY",
+    "model_name": "deepseek-flash",
+    "max_tokens": 393216,
+    "context_window": 1048576,
+    "timeout": 600,
+    "supports_tools": true,
+    "max_retries": 3,
+    "extra": {
+      "reasoning_effort": "low",
+      "requests_per_minute": 240
+    }
+  },
+  "case": {
+    "id": "yasm241",
+    "project": "yasm241",
+    "source_path": "/home/qzt/patchagent-campaign-20261117/cases/yasm241/yasm",
+    "source_revision": "fc12a8f1759f41e7153fd8ab12bbdec4eb8b3d99",
+    "poc_path": "/home/qzt/patchagent-campaign-20261117/cases/yasm241/poc.asm",
+    "poc_sha256": "fd10bebb241000b207f39309c6259daee54e1324919a99426c4ef3c91c007df8",
+    "harness": "yasm_fuzzer",
+    "sanitizer": "AddressSanitizer"
+  },
+  "protocol": {
+    "temperature": 0,
+    "max_iterations": 30,
+    "agents_per_case": 1
+  },
+  "started_at": "2026-11-17T09:25:45+08:00",
+  "status": "running",
+  "output_dir": "/home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/jobs/deepseek-flash/yasm241"
+}

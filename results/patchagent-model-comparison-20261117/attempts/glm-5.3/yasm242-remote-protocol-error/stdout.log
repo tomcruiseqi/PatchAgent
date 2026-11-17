@@ -1,0 +1,37 @@
+initializing yasm242 with glm-5.3
+[2026-11-17 10:06:28] [🔄] Replaying yasm241/yasm_fuzzer with PoC /home/qzt/patchagent-campaign-20261117/cases/yasm242/poc.asm and patch d41d8cd98f00b204e9800998ecf8427e-address
+[2026-11-17 10:06:35] [🔍] Guessed relpath /src/yasm/libyasm/intnum.c -> libyasm/intnum.c
+[2026-11-17 10:06:35] [🔍] Guessed relpath /src/yasm/libyasm/expr.c -> libyasm/expr.c
+[2026-11-17 10:06:35] [🔍] Guessed relpath /src/yasm/libyasm/expr.c -> libyasm/expr.c
+[2026-11-17 10:06:35] [🔍] Guessed relpath /src/yasm/libyasm/expr.c -> libyasm/expr.c
+[2026-11-17 10:06:35] [🔍] Guessed relpath /src/yasm/libyasm/expr.c -> libyasm/expr.c
+[2026-11-17 10:06:35] [🔍] Guessed relpath /src/yasm/libyasm/expr.c -> libyasm/expr.c
+[2026-11-17 10:06:35] [🔍] Guessed relpath /src/yasm/libyasm/expr.c -> libyasm/expr.c
+[2026-11-17 10:06:35] [🔍] Guessed relpath /src/yasm/libyasm/section.c -> libyasm/section.c
+[2026-11-17 10:06:35] [🔍] Guessed relpath /src/yasm/libyasm/section.c -> libyasm/section.c
+[2026-11-17 10:06:35] [🔍] Guessed relpath /src/yasm/frontends/yasm/yasm.c -> frontends/yasm/yasm.c
+[2026-11-17 10:06:35] [🔍] Guessed relpath /src/llvm-project/compiler-rt/lib/asan/asan_malloc_linux.cpp -> None
+[2026-11-17 10:06:35] [🔍] Guessed relpath /src/yasm/libyasm/expr.c -> libyasm/expr.c
+[2026-11-17 10:06:35] [🔍] Guessed relpath /src/yasm/libyasm/expr.c -> libyasm/expr.c
+[2026-11-17 10:06:35] [🔍] Guessed relpath /src/yasm/libyasm/expr.c -> libyasm/expr.c
+[2026-11-17 10:06:35] [🔍] Guessed relpath /src/yasm/libyasm/expr.c -> libyasm/expr.c
+[2026-11-17 10:06:35] [🔍] Guessed relpath /src/yasm/libyasm/section.c -> libyasm/section.c
+[2026-11-17 10:06:35] [🔍] Guessed relpath /src/yasm/libyasm/section.c -> libyasm/section.c
+[2026-11-17 10:06:35] [🔍] Guessed relpath /src/yasm/frontends/yasm/yasm.c -> frontends/yasm/yasm.c
+[2026-11-17 10:06:35] [🔍] Guessed relpath /src/llvm-project/compiler-rt/lib/asan/asan_malloc_linux.cpp -> None
+[2026-11-17 10:06:35] [🔍] Guessed relpath /src/yasm/libyasm/xmalloc.c -> libyasm/xmalloc.c
+[2026-11-17 10:06:35] [🔍] Guessed relpath /src/yasm/libyasm/intnum.c -> libyasm/intnum.c
+[2026-11-17 10:06:35] [🔍] Guessed relpath /src/yasm/libyasm/expr.c -> libyasm/expr.c
+[2026-11-17 10:06:35] [🔍] Guessed relpath /src/yasm/libyasm/expr.c -> libyasm/expr.c
+[2026-11-17 10:06:35] [🔍] Guessed relpath /src/yasm/libyasm/section.c -> libyasm/section.c
+[2026-11-17 10:06:35] [🔍] Guessed relpath /src/yasm/libyasm/section.c -> libyasm/section.c
+[2026-11-17 10:06:35] [🔍] Guessed relpath /src/yasm/frontends/yasm/yasm.c -> frontends/yasm/yasm.c
+initial status: Bug detected
+[2026-11-17 10:06:35] [🤖] Applying CommonCLikeAgent (model: glm-5.3, temp: 0, ah: False, #ce: 0)
+[2026-11-17 10:06:38] [📞] viewcode(path=/src/yasm/libyasm/expr.c, start_line=660, end_line=720)
+[2026-11-17 10:06:38] [🔍] Guessed relpath /src/yasm/libyasm/expr.c -> libyasm/expr.c
+[2026-11-17 10:06:48] [📞] viewcode(path=/src/yasm/libyasm/expr.c, start_line=540, end_line=620)
+[2026-11-17 10:06:48] [🔍] Guessed relpath /src/yasm/libyasm/expr.c -> libyasm/expr.c
+[2026-11-17 10:06:52] [📞] viewcode(path=/src/yasm/libyasm/expr.c, start_line=440, end_line=540)
+[2026-11-17 10:06:52] [🔍] Guessed relpath /src/yasm/libyasm/expr.c -> libyasm/expr.c
+{"case": "yasm242", "model": "glm-5.3", "status": "error", "metrics": {"model_request_count": 4, "model_response_count": 3, "model_error_callbacks": 1, "input_tokens": 10366, "output_tokens": 107, "total_tokens": 10473, "logged_llm_entries": 3, "tool_call_count": 3, "tool_calls_by_name": {"viewcode": 3}, "candidate_patch_generation_attempts": 0, "unique_candidate_patch_count": 0, "elapsed_seconds": 783.07}}

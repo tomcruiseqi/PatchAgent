@@ -1,0 +1,15 @@
+initializing yasm241 with deepseek-flash
+[2026-11-17 09:25:45] [🔄] Replaying yasm241/yasm_fuzzer with PoC /home/qzt/patchagent-campaign-20261117/cases/yasm241/poc.asm and patch d41d8cd98f00b204e9800998ecf8427e-address
+[2026-11-17 09:25:53] [🔍] Guessed relpath /src/yasm/libyasm/expr.c -> libyasm/expr.c
+[2026-11-17 09:25:53] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-parse.c -> modules/parsers/nasm/nasm-parse.c
+[2026-11-17 09:25:53] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-parse.c -> modules/parsers/nasm/nasm-parse.c
+[2026-11-17 09:25:53] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-parse.c -> modules/parsers/nasm/nasm-parse.c
+[2026-11-17 09:25:53] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-parser.c -> modules/parsers/nasm/nasm-parser.c
+[2026-11-17 09:25:53] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-parser.c -> modules/parsers/nasm/nasm-parser.c
+[2026-11-17 09:25:53] [🔍] Guessed relpath /src/yasm/frontends/yasm/yasm.c -> frontends/yasm/yasm.c
+initial status: Bug detected
+[2026-11-17 09:25:53] [🤖] Applying CommonCLikeAgent (model: deepseek-flash, temp: 0, ah: False, #ce: 0)
+[2026-11-17 09:25:54] [📞] viewcode(path=libyasm/expr.c, start_line=960, end_line=1040)
+[2026-11-17 09:25:54] [🔍] Guessed relpath libyasm/expr.c -> libyasm/expr.c
+[2026-11-17 09:25:54] [📞] viewcode(path=modules/parsers/nasm/nasm-parse.c, start_line=1560, end_line=1600)
+[2026-11-17 09:25:54] [🔍] Guessed relpath modules/parsers/nasm/nasm-parse.c -> modules/parsers/nasm/nasm-parse.c

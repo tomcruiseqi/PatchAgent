@@ -1,0 +1,37 @@
+{
+  "model": {
+    "id": "deepseek-flash-cyber",
+    "name": "DeepSeek Flash Cyber",
+    "provider": "deepseek",
+    "base_url": "https://api.deepseek.com/v1",
+    "api_key_env": "DEEPSEEK_API_KEY",
+    "model_name": "deepseek-flash-cyber",
+    "max_tokens": 393216,
+    "context_window": 1048576,
+    "timeout": 900,
+    "supports_tools": true,
+    "max_retries": 3,
+    "extra": {
+      "reasoning_effort": "low",
+      "requests_per_minute": 240
+    }
+  },
+  "case": {
+    "id": "assimp5764",
+    "project": "assimp",
+    "source_path": "/home/qzt/patchagent-campaign-20261117/cases/assimp5764/assimp",
+    "source_revision": "3bd98611d70e973b4f62cccc8e17519984d07588",
+    "poc_path": "/home/qzt/patchagent-campaign-20261117/cases/assimp5764/poc.bin",
+    "poc_sha256": "04a82d30621f0abbaa01563862bf382bc7e24e383b46541a314049d84cfba14c",
+    "harness": "assimp_fuzzer",
+    "sanitizer": "AddressSanitizer"
+  },
+  "protocol": {
+    "temperature": 0,
+    "max_iterations": 30,
+    "agents_per_case": 1
+  },
+  "started_at": "2026-11-17T09:39:36+08:00",
+  "status": "running",
+  "output_dir": "/home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/jobs/deepseek-flash-cyber/assimp5764"
+}

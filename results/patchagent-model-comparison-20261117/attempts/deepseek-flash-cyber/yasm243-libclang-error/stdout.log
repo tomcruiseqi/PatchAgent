@@ -1,0 +1,41 @@
+initializing yasm243 with deepseek-flash-cyber
+[2026-11-17 09:23:02] [🧱] Building yasm241 with patch d41d8cd98f00b204e9800998ecf8427e-address
+[2026-11-17 09:23:25] [🔄] Replaying yasm241/yasm_fuzzer with PoC /home/qzt/patchagent-campaign-20261117/cases/yasm243/poc.asm and patch d41d8cd98f00b204e9800998ecf8427e-address
+[2026-11-17 09:23:33] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-token.re -> modules/parsers/nasm/nasm-token.re
+[2026-11-17 09:23:33] [🚧] Incomplete file path: /src/yasm/modules/parsers/nasm/nasm-token.re:0:0 vs /src/yasm/modules/parsers/nasm/nasm-token.re
+[2026-11-17 09:23:33] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-token.re -> modules/parsers/nasm/nasm-token.re
+[2026-11-17 09:23:33] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-parse.c -> modules/parsers/nasm/nasm-parse.c
+[2026-11-17 09:23:33] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-parse.c -> modules/parsers/nasm/nasm-parse.c
+[2026-11-17 09:23:33] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-parse.c -> modules/parsers/nasm/nasm-parse.c
+[2026-11-17 09:23:33] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-parser.c -> modules/parsers/nasm/nasm-parser.c
+[2026-11-17 09:23:33] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-parser.c -> modules/parsers/nasm/nasm-parser.c
+[2026-11-17 09:23:33] [🔍] Guessed relpath /src/yasm/frontends/yasm/yasm.c -> frontends/yasm/yasm.c
+[2026-11-17 09:23:33] [🔍] Guessed relpath /src/llvm-project/compiler-rt/lib/asan/asan_malloc_linux.cpp -> None
+[2026-11-17 09:23:33] [🔍] Guessed relpath /src/yasm/libyasm/xmalloc.c -> libyasm/xmalloc.c
+[2026-11-17 09:23:33] [🔍] Guessed relpath /src/yasm/libyasm/xstrdup.c -> libyasm/xstrdup.c
+[2026-11-17 09:23:33] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-token.re -> modules/parsers/nasm/nasm-token.re
+[2026-11-17 09:23:33] [🚧] Incomplete file path: /src/yasm/modules/parsers/nasm/nasm-token.re:0:0 vs /src/yasm/modules/parsers/nasm/nasm-token.re
+[2026-11-17 09:23:33] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-token.re -> modules/parsers/nasm/nasm-token.re
+[2026-11-17 09:23:33] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-parse.c -> modules/parsers/nasm/nasm-parse.c
+[2026-11-17 09:23:33] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-parse.c -> modules/parsers/nasm/nasm-parse.c
+[2026-11-17 09:23:33] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-parse.c -> modules/parsers/nasm/nasm-parse.c
+[2026-11-17 09:23:33] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-parser.c -> modules/parsers/nasm/nasm-parser.c
+[2026-11-17 09:23:33] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-parser.c -> modules/parsers/nasm/nasm-parser.c
+[2026-11-17 09:23:33] [🔍] Guessed relpath /src/yasm/frontends/yasm/yasm.c -> frontends/yasm/yasm.c
+initial status: Bug detected
+[2026-11-17 09:23:33] [🤖] Applying CommonCLikeAgent (model: deepseek-flash-cyber, temp: 0, ah: False, #ce: 0)
+[2026-11-17 09:23:34] [📞] viewcode(path=modules/parsers/nasm/nasm-token.re, start_line=50, end_line=110)
+[2026-11-17 09:23:34] [🔍] Guessed relpath modules/parsers/nasm/nasm-token.re -> modules/parsers/nasm/nasm-token.re
+[2026-11-17 09:23:35] [🔋] Generating compile_commands.json
+[2026-11-17 09:23:42] [📞] viewcode(path=modules/parsers/nasm/nasm-token.re, start_line=110, end_line=230)
+[2026-11-17 09:23:42] [🔍] Guessed relpath modules/parsers/nasm/nasm-token.re -> modules/parsers/nasm/nasm-token.re
+[2026-11-17 09:23:44] [📞] viewcode(path=modules/parsers/nasm/nasm-token.re, start_line=230, end_line=340)
+[2026-11-17 09:23:44] [🔍] Guessed relpath modules/parsers/nasm/nasm-token.re -> modules/parsers/nasm/nasm-token.re
+[2026-11-17 09:23:45] [📞] viewcode(path=modules/parsers/nasm/nasm-token.re, start_line=380, end_line=470)
+[2026-11-17 09:23:45] [🔍] Guessed relpath modules/parsers/nasm/nasm-token.re -> modules/parsers/nasm/nasm-token.re
+[2026-11-17 09:23:47] [📞] viewcode(path=modules/parsers/nasm/nasm-token.re, start_line=470, end_line=560)
+[2026-11-17 09:23:47] [🔍] Guessed relpath modules/parsers/nasm/nasm-token.re -> modules/parsers/nasm/nasm-token.re
+[2026-11-17 09:23:48] [📞] viewcode(path=modules/parsers/nasm/nasm-token.re, start_line=560, end_line=660)
+[2026-11-17 09:23:48] [🔍] Guessed relpath modules/parsers/nasm/nasm-token.re -> modules/parsers/nasm/nasm-token.re
+[2026-11-17 09:23:49] [📞] locate(symbol=handle_dot_label)
+{"case": "yasm243", "model": "deepseek-flash-cyber", "status": "error", "metrics": {"model_request_count": 7, "model_response_count": 7, "model_error_callbacks": 0, "input_tokens": 45637, "output_tokens": 1003, "total_tokens": 46640, "logged_llm_entries": 7, "tool_call_count": 6, "tool_calls_by_name": {"viewcode": 6}, "candidate_patch_generation_attempts": 0, "unique_candidate_patch_count": 0, "elapsed_seconds": 48.47}}

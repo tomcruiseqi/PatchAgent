@@ -1,0 +1,69 @@
+{
+  "model": {
+    "id": "deepseek-flash-cyber",
+    "name": "DeepSeek Flash Cyber",
+    "provider": "deepseek",
+    "base_url": "https://api.deepseek.com/v1",
+    "api_key_env": "DEEPSEEK_API_KEY",
+    "model_name": "deepseek-flash-cyber",
+    "max_tokens": 393216,
+    "context_window": 1048576,
+    "timeout": 900,
+    "supports_tools": true,
+    "max_retries": 3,
+    "extra": {
+      "reasoning_effort": "low",
+      "requests_per_minute": 240
+    }
+  },
+  "case": {
+    "id": "assimp5763",
+    "project": "assimp",
+    "source_path": "/home/qzt/patchagent-campaign-20261117/cases/assimp5763/assimp",
+    "source_revision": "d468e633b1b5cf20b893ef0315006fa6b901ca8d",
+    "poc_path": "/home/qzt/patchagent-campaign-20261117/cases/assimp5763/poc.bin",
+    "poc_sha256": "7bf4beaa16f880a63237066ffd81bcf0e0849d163a601cb145a404fb51a485f7",
+    "harness": "assimp_fuzzer",
+    "sanitizer": "AddressSanitizer"
+  },
+  "protocol": {
+    "temperature": 0,
+    "max_iterations": 30,
+    "agents_per_case": 1
+  },
+  "started_at": "2026-11-17T09:43:46+08:00",
+  "status": "patch_found",
+  "output_dir": "/home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/jobs/deepseek-flash-cyber/assimp5763",
+  "initial_status": "Bug detected",
+  "initial_report": "The sanitizer detected a heap buffer overflow vulnerability. The explanation of the vulnerability is: The program tried to access a heap object outside of its allocated memory, causing potential memory corruption or crashes. Here is the detail: \n\nREAD of size 4 at 0x7886461ebc50 thread T0\n    - Assimp::MD3Importer::InternReadFile(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&, aiScene*, Assimp::IOSystem*) /src/assimp/code/AssetLib/MD3/MD3Loader.cpp:1037:53\n    - Assimp::BaseImporter::ReadFile(Assimp::Importer*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&, Assimp::IOSystem*) /src/assimp/code/Common/BaseImporter.cpp:131:9\n    - Assimp::Importer::ReadFile(char const*, unsigned int) /src/assimp/code/Common/Importer.cpp:709:30\n    - Assimp::Importer::ReadFileFromMemory(void const*, unsigned long, unsigned int, char const*) /src/assimp/code/Common/Importer.cpp:507:9\n    - LLVMFuzzerTestOneInput /src/assimp/fuzz/assimp_fuzzer.cc:54:34\n    - fuzzer::Fuzzer::ExecuteCallback(unsigned char const*, unsigned long) /src/llvm-project/compiler-rt/lib/fuzzer/FuzzerLoop.cpp:619:13\n    - fuzzer::RunOneTest(fuzzer::Fuzzer*, char const*, unsigned long) /src/llvm-project/compiler-rt/lib/fuzzer/FuzzerDriver.cpp:329:6\n    - fuzzer::FuzzerDriver(int*, char***, int (*)(unsigned char const*, unsigned long)) /src/llvm-project/compiler-rt/lib/fuzzer/FuzzerDriver.cpp:865:9\n    - main /src/llvm-project/compiler-rt/lib/fuzzer/FuzzerMain.cpp:20:10\n\n0x7886461ebc50 is located 14 bytes after 15170-byte region [0x7886461e8100,0x7886461ebc42)\nallocated by thread T0 here:\n    - operator new(unsigned long) /src/llvm-project/compiler-rt/lib/asan/asan_new_delete.cpp:109:35\n    - __libcpp_allocate<unsigned char> /usr/local/include/c++/v1/__new/allocate.h:43:28\n    - allocate /usr/local/include/c++/v1/__memory/allocator.h:105:14\n    - __allocate_at_least<std::__1::allocator<unsigned char> > /usr/local/include/c++/v1/__memory/allocate_at_least.h:41:19\n    - __vallocate /usr/local/include/c++/v1/__vector/vector.h:583:25\n    - std::__1::vector<unsigned char, std::__1::allocator<unsigned char>>::vector[abi:ne220000](unsigned long) /usr/local/include/c++/v1/__vector/vector.h:150:7\n    - Assimp::MD3Importer::InternReadFile(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&, aiScene*, Assimp::IOSystem*) /src/assimp/code/AssetLib/MD3/MD3Loader.cpp:724:32\n    - Assimp::BaseImporter::ReadFile(Assimp::Importer*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&, Assimp::IOSystem*) /src/assimp/code/Common/BaseImporter.cpp:131:9\n    - Assimp::Importer::ReadFile(char const*, unsigned int) /src/assimp/code/Common/Importer.cpp:709:30\n    - Assimp::Importer::ReadFileFromMemory(void const*, unsigned long, unsigned int, char const*) /src/assimp/code/Common/Importer.cpp:507:9\n    - LLVMFuzzerTestOneInput /src/assimp/fuzz/assimp_fuzzer.cc:54:34\n    - fuzzer::Fuzzer::ExecuteCallback(unsigned char const*, unsigned long) /src/llvm-project/compiler-rt/lib/fuzzer/FuzzerLoop.cpp:619:13\n    - fuzzer::RunOneTest(fuzzer::Fuzzer*, char const*, unsigned long) /src/llvm-project/compiler-rt/lib/fuzzer/FuzzerDriver.cpp:329:6\n    - fuzzer::FuzzerDriver(int*, char***, int (*)(unsigned char const*, unsigned long)) /src/llvm-project/compiler-rt/lib/fuzzer/FuzzerDriver.cpp:865:9\n    - main /src/llvm-project/compiler-rt/lib/fuzzer/FuzzerMain.cpp:20:10\n\n\nTo fix this issue, follow the advice below:\n\n1. If overflow is unavoidable, allocate a sufficiently large buffer during initialization.\n2. Add explicit bounds checking before accessing arrays or buffers to prevent overflows.\n3. Replace unsafe functions like memcpy, strcpy, strcat, and sprintf with safer alternatives such as strncpy, strncat, and snprintf.\n4. Check for integer overflows in size calculations that could cause improper memory allocations.\n",
+  "final_patch_sha256": "6cde7e10557ca25777bf0ce5c027f5b5e5bd725869e11cacb719bf792521a50f",
+  "candidate_patches": [
+    {
+      "index": 1,
+      "file": "candidate-patches/candidate-001.patch",
+      "sha256": "6cde7e10557ca25777bf0ce5c027f5b5e5bd725869e11cacb719bf792521a50f",
+      "tool_call_index": 9,
+      "validation_result": "patch found"
+    }
+  ],
+  "metrics": {
+    "model_request_count": 6,
+    "model_response_count": 6,
+    "model_error_callbacks": 0,
+    "input_tokens": 45039,
+    "output_tokens": 1500,
+    "total_tokens": 46539,
+    "logged_llm_entries": 9,
+    "tool_call_count": 9,
+    "tool_calls_by_name": {
+      "viewcode": 5,
+      "locate": 3,
+      "validate": 1
+    },
+    "candidate_patch_generation_attempts": 1,
+    "unique_candidate_patch_count": 1,
+    "elapsed_seconds": 102.42
+  },
+  "finished_at": "2026-11-17T09:45:28+08:00",
+  "return_code": 0
+}

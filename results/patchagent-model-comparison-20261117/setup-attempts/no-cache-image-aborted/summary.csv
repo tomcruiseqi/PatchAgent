@@ -1,0 +1,1 @@
+model_id,case_id,status,patch_found,initial_status,interactions,logged_llm_entries,candidate_attempts,unique_candidates,tool_calls,tool_calls_by_name,input_tokens,output_tokens,total_tokens,elapsed_seconds

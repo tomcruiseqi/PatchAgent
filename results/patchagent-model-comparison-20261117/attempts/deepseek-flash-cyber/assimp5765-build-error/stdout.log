@@ -1,0 +1,4 @@
+initializing assimp5765 with deepseek-flash-cyber
+[2026-11-17 09:25:28] [🧱] Building assimp with patch d41d8cd98f00b204e9800998ecf8427e-address
+initial status: Build failed
+{"case": "assimp5765", "model": "deepseek-flash-cyber", "status": "initialization_failed", "metrics": {"model_request_count": 0, "model_response_count": 0, "model_error_callbacks": 0, "input_tokens": 0, "output_tokens": 0, "total_tokens": 0, "logged_llm_entries": 0, "tool_call_count": 0, "tool_calls_by_name": {}, "candidate_patch_generation_attempts": 0, "unique_candidate_patch_count": 0, "elapsed_seconds": 17.41}}

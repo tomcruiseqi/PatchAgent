@@ -1,0 +1,19 @@
+{
+  "status": "patch_found",
+  "model_request_count": 4,
+  "model_response_count": 4,
+  "model_error_callbacks": 0,
+  "input_tokens": 62653,
+  "output_tokens": 1700,
+  "total_tokens": 64353,
+  "logged_llm_entries": 5,
+  "tool_call_count": 5,
+  "tool_calls_by_name": {
+    "viewcode": 3,
+    "locate": 1,
+    "validate": 1
+  },
+  "candidate_patch_generation_attempts": 1,
+  "unique_candidate_patch_count": 1,
+  "elapsed_seconds": 190.22
+}

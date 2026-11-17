@@ -1,0 +1,17 @@
+{
+  "case": "yasm243",
+  "command": [
+    "python3",
+    "oss-fuzz/infra/helper.py",
+    "reproduce",
+    "yasm241",
+    "yasm_fuzzer",
+    "/home/qzt/patchagent-campaign-20261117/cases/yasm243/poc.asm",
+    "--",
+    "-detect_leaks=0"
+  ],
+  "exit_code": 1,
+  "expected_asan_heap_buffer_overflow": true,
+  "poc_sha256": "48c995e195c13f4d6a6c691b9d0b07a941197ff6348f9ec5890d987940aa3d7b",
+  "log": "logs/yasm243-baseline-reproduce.log"
+}

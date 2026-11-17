@@ -1,0 +1,2 @@
+[2026-11-17 09:32:46] [🧱] Building assimp with patch d41d8cd98f00b204e9800998ecf8427e-address
+{"case_id": "assimp5763", "status": "Build failed", "report_file": "/home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/preflight/assimp5763-baseline.json"}

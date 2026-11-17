@@ -1,0 +1,17 @@
+{
+  "status": "error",
+  "model_request_count": 4,
+  "model_response_count": 3,
+  "model_error_callbacks": 1,
+  "input_tokens": 10366,
+  "output_tokens": 107,
+  "total_tokens": 10473,
+  "logged_llm_entries": 3,
+  "tool_call_count": 3,
+  "tool_calls_by_name": {
+    "viewcode": 3
+  },
+  "candidate_patch_generation_attempts": 0,
+  "unique_candidate_patch_count": 0,
+  "elapsed_seconds": 783.07
+}

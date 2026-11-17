@@ -1,0 +1,44 @@
+{
+  "runs": [],
+  "models": [
+    {
+      "model_id": "deepseek-flash-cyber",
+      "runs": 0,
+      "patches_found": 0,
+      "model_interactions": 0,
+      "candidate_attempts": 0,
+      "unique_candidates_by_run": 0,
+      "tool_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "elapsed_seconds": 0
+    },
+    {
+      "model_id": "deepseek-flash",
+      "runs": 0,
+      "patches_found": 0,
+      "model_interactions": 0,
+      "candidate_attempts": 0,
+      "unique_candidates_by_run": 0,
+      "tool_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "elapsed_seconds": 0
+    },
+    {
+      "model_id": "glm-5.3",
+      "runs": 0,
+      "patches_found": 0,
+      "model_interactions": 0,
+      "candidate_attempts": 0,
+      "unique_candidates_by_run": 0,
+      "tool_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "elapsed_seconds": 0
+    }
+  ]
+}

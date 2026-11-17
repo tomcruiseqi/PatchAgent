@@ -1,0 +1,57 @@
+{
+  "model": {
+    "id": "glm-5.3",
+    "name": "GLM-5.3",
+    "provider": "openai_compatible",
+    "base_url": "https://api.icompify.com/v1",
+    "api_key_env": "GLM_API_KEY",
+    "model_name": "glm-5.3",
+    "max_tokens": 131072,
+    "context_window": 1048576,
+    "timeout": 1200,
+    "supports_tools": true,
+    "max_retries": 3,
+    "extra": {
+      "reasoning_effort": "low",
+      "requests_per_minute": 240
+    }
+  },
+  "case": {
+    "id": "yasm243",
+    "project": "yasm241",
+    "source_path": "/home/qzt/patchagent-campaign-20261117/cases/yasm243/yasm",
+    "source_revision": "dfc1c9e84142ae84b976dd863a11a9d95528210f",
+    "poc_path": "/home/qzt/patchagent-campaign-20261117/cases/yasm243/poc.asm",
+    "poc_sha256": "48c995e195c13f4d6a6c691b9d0b07a941197ff6348f9ec5890d987940aa3d7b",
+    "harness": "yasm_fuzzer",
+    "sanitizer": "AddressSanitizer"
+  },
+  "protocol": {
+    "temperature": 0,
+    "max_iterations": 30,
+    "agents_per_case": 1
+  },
+  "started_at": "2026-11-17T09:10:51+08:00",
+  "status": "error",
+  "output_dir": "/home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091035+0800/jobs/glm-5.3/yasm243",
+  "error_type": "DockerUnavailableError",
+  "error": "  File \"infra/helper.py\", line 63\n    return f'{image}:{tag}'\n                          ^\nSyntaxError: invalid syntax\n",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/qzt/patchagent-campaign-20261117/bin/run_case.py\", line 292, in main\n    init_status, init_report = task.initialize()\n                               ~~~~~~~~~~~~~~~^^\n  File \"/home/qzt/patchagent-campaign-20261117/src/patchagent/task.py\", line 53, in initialize\n    self.builder.build()\n    ~~~~~~~~~~~~~~~~~~^^\n  File \"/home/qzt/patchagent-campaign-20261117/src/patchagent/builder/ossfuzz.py\", line 165, in build\n    self._build(sanitizer, patch)\n    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^\n  File \"/home/qzt/patchagent-campaign-20261117/src/patchagent/builder/ossfuzz.py\", line 135, in _build\n    self._build_image(fuzz_tooling_path)\n    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^\n  File \"/home/qzt/patchagent-campaign-20261117/src/patchagent/builder/ossfuzz.py\", line 110, in _build_image\n    raise DockerUnavailableError(stderr.decode(errors=\"ignore\"))\npatchagent.builder.utils.DockerUnavailableError:   File \"infra/helper.py\", line 63\n    return f'{image}:{tag}'\n                          ^\nSyntaxError: invalid syntax\n\n",
+  "candidate_patches": [],
+  "metrics": {
+    "model_request_count": 0,
+    "model_response_count": 0,
+    "model_error_callbacks": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0,
+    "logged_llm_entries": 0,
+    "tool_call_count": 0,
+    "tool_calls_by_name": {},
+    "candidate_patch_generation_attempts": 0,
+    "unique_candidate_patch_count": 0,
+    "elapsed_seconds": 0.57
+  },
+  "finished_at": "2026-11-17T09:10:51+08:00",
+  "return_code": 1
+}

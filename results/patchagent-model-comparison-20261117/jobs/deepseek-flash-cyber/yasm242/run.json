@@ -1,0 +1,69 @@
+{
+  "model": {
+    "id": "deepseek-flash-cyber",
+    "name": "DeepSeek Flash Cyber",
+    "provider": "deepseek",
+    "base_url": "https://api.deepseek.com/v1",
+    "api_key_env": "DEEPSEEK_API_KEY",
+    "model_name": "deepseek-flash-cyber",
+    "max_tokens": 393216,
+    "context_window": 1048576,
+    "timeout": 900,
+    "supports_tools": true,
+    "max_retries": 3,
+    "extra": {
+      "reasoning_effort": "low",
+      "requests_per_minute": 240
+    }
+  },
+  "case": {
+    "id": "yasm242",
+    "project": "yasm241",
+    "source_path": "/home/qzt/patchagent-campaign-20261117/cases/yasm242/yasm",
+    "source_revision": "dfc1c9e84142ae84b976dd863a11a9d95528210f",
+    "poc_path": "/home/qzt/patchagent-campaign-20261117/cases/yasm242/poc.asm",
+    "poc_sha256": "b7a393be9014a12d2d9d9001691c8d135f435313149e8dba58ef8925863703c5",
+    "harness": "yasm_fuzzer",
+    "sanitizer": "AddressSanitizer"
+  },
+  "protocol": {
+    "temperature": 0,
+    "max_iterations": 30,
+    "agents_per_case": 1
+  },
+  "started_at": "2026-11-17T09:20:07+08:00",
+  "status": "patch_found",
+  "output_dir": "/home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/jobs/deepseek-flash-cyber/yasm242",
+  "initial_status": "Bug detected",
+  "initial_report": "The sanitizer detected a heap use after free vulnerability. The explanation of the vulnerability is: Memory is accessed after it has been freed, leading to undefined behavior and security risks. Here is the detail: \n\nREAD of size 4 at 0x79f90e3e7018 thread T0\n    - yasm_intnum_destroy /src/yasm/libyasm/intnum.c:415:15\n    - expr_delete_term /src/yasm/libyasm/expr.c:1017:13\n    - expr_simplify_identity /src/yasm/libyasm/expr.c:582:17\n    - expr_level_op /src/yasm/libyasm/expr.c:701:17\n    - expr_level_tree /src/yasm/libyasm/expr.c:880:9\n    - yasm_expr__level_tree /src/yasm/libyasm/expr.c:906:9\n    - yasm_expr_get_intnum /src/yasm/libyasm/expr.c:1261:11\n    - recalc_normal_span /src/yasm/libyasm/section.c:1044:15\n    - yasm_object_optimize /src/yasm/libyasm/section.c:1392:20\n    - do_assemble /src/yasm/frontends/yasm/yasm.c:651:5\n\n0x79f90e3e7018 is located 8 bytes inside of 16-byte region [0x79f90e3e7010,0x79f90e3e7020)\nfreed by thread T0 here:\n    - free /src/llvm-project/compiler-rt/lib/asan/asan_malloc_linux.cpp:51:3\n    - expr_level_op /src/yasm/libyasm/expr.c:689:17\n    - expr_level_tree /src/yasm/libyasm/expr.c:880:9\n    - yasm_expr__level_tree /src/yasm/libyasm/expr.c:906:9\n    - yasm_expr_get_intnum /src/yasm/libyasm/expr.c:1261:11\n    - recalc_normal_span /src/yasm/libyasm/section.c:1044:15\n    - yasm_object_optimize /src/yasm/libyasm/section.c:1392:20\n    - do_assemble /src/yasm/frontends/yasm/yasm.c:651:5\n\npreviously allocated by thread T0 here:\n    - malloc /src/llvm-project/compiler-rt/lib/asan/asan_malloc_linux.cpp:67:3\n    - def_xmalloc /src/yasm/libyasm/xmalloc.c:69:14\n    - yasm_intnum_copy /src/yasm/libyasm/intnum.c:397:22\n    - expr_item_copy /src/yasm/libyasm/expr.c:975:31\n    - yasm_expr__copy_except /src/yasm/libyasm/expr.c:1006:13\n    - recalc_normal_span /src/yasm/libyasm/section.c:1035:31\n    - yasm_object_optimize /src/yasm/libyasm/section.c:1392:20\n    - do_assemble /src/yasm/frontends/yasm/yasm.c:651:5\n\n\nTo fix this issue, follow the advice below:\n\n1. Set pointers to NULL immediately after freeing them to prevent accidental reuse.\n2. Ensure that each allocated memory block is freed only once.\n3. Track memory allocations and deallocations systematically to prevent use-after-free conditions.\n4. Consider swap the order of freeing memory and accessing it.",
+  "final_patch_sha256": "d73a1b274e0b50086893640282b953147a12d34141adceae9c3e247c066a2b93",
+  "candidate_patches": [
+    {
+      "index": 1,
+      "file": "candidate-patches/candidate-001.patch",
+      "sha256": "d73a1b274e0b50086893640282b953147a12d34141adceae9c3e247c066a2b93",
+      "tool_call_index": 19,
+      "validation_result": "patch found"
+    }
+  ],
+  "metrics": {
+    "model_request_count": 12,
+    "model_response_count": 12,
+    "model_error_callbacks": 0,
+    "input_tokens": 259032,
+    "output_tokens": 21868,
+    "total_tokens": 280900,
+    "logged_llm_entries": 19,
+    "tool_call_count": 19,
+    "tool_calls_by_name": {
+      "viewcode": 16,
+      "locate": 2,
+      "validate": 1
+    },
+    "candidate_patch_generation_attempts": 1,
+    "unique_candidate_patch_count": 1,
+    "elapsed_seconds": 173.48
+  },
+  "finished_at": "2026-11-17T09:23:01+08:00",
+  "return_code": 0
+}

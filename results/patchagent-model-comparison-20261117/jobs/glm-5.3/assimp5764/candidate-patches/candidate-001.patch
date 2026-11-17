@@ -1,0 +1,35 @@
+diff --git a/code/AssetLib/LWS/LWSLoader.cpp b/code/AssetLib/LWS/LWSLoader.cpp
+index 047ab0cc..4896fbbd 100644
+--- a/code/AssetLib/LWS/LWSLoader.cpp
++++ b/code/AssetLib/LWS/LWSLoader.cpp
+@@ -78,7 +78,7 @@ static constexpr aiImporterDesc desc = {
+ 
+ // ------------------------------------------------------------------------------------------------
+ // Recursive parsing of LWS files
+-void LWS::Element::Parse(const char *&buffer, const char *end) {
++void LWS::Element::Parse(const char *&buffer, const char *end, unsigned int depth) {
+     for (; SkipSpacesAndLineEnd(&buffer, end); SkipLine(&buffer, end)) {
+ 
+         // begin of a new element with children
+@@ -120,7 +120,7 @@ void LWS::Element::Parse(const char *&buffer, const char *end) {
+         children.back().tokens[1] = std::string(cur, (size_t)(buffer - cur));
+ 
+         // parse more elements recursively
+-        if (sub) {
++        if (sub && depth < 1000) {
+             children.back().Parse(buffer, end);
+         }
+     }
+diff --git a/code/AssetLib/LWS/LWSLoader.h b/code/AssetLib/LWS/LWSLoader.h
+index f6668824..888a9891 100644
+--- a/code/AssetLib/LWS/LWSLoader.h
++++ b/code/AssetLib/LWS/LWSLoader.h
+@@ -76,7 +76,7 @@ public:
+     std::list<Element> children;
+ 
+     //! Recursive parsing function
+-    void Parse(const char *&buffer, const char *end);
++    void Parse(const char *&buffer, const char *end, unsigned int depth = 0);
+ };
+ 
+ #define AI_LWS_MASK (0xffffffff >> 4u)

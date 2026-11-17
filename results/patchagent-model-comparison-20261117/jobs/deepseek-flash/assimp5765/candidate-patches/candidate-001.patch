@@ -1,0 +1,19 @@
+diff --git a/code/PostProcessing/SortByPTypeProcess.cpp b/code/PostProcessing/SortByPTypeProcess.cpp
+index 48ebbc57..a294f603 100644
+--- a/code/PostProcessing/SortByPTypeProcess.cpp
++++ b/code/PostProcessing/SortByPTypeProcess.cpp
+@@ -171,9 +171,11 @@ void SortByPTypeProcess::Execute(aiScene *pScene) {
+ 
+         unsigned int numPolyVerts = 0;
+         for (; pFirstFace != pLastFace; ++pFirstFace) {
+-            if (pFirstFace->mNumIndices <= 3)
+-                ++aiNumPerPType[pFirstFace->mNumIndices - 1];
+-            else {
++            if (pFirstFace->mNumIndices <= 3) {
++                if (pFirstFace->mNumIndices > 0) {
++                    ++aiNumPerPType[pFirstFace->mNumIndices - 1];
++                }
++            } else {
+                 ++aiNumPerPType[3];
+                 numPolyVerts += pFirstFace->mNumIndices;
+             }

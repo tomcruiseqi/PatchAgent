@@ -1,0 +1,42 @@
+initializing yasm241 with glm-5.3
+[2026-11-17 10:05:25] [🔄] Replaying yasm241/yasm_fuzzer with PoC /home/qzt/patchagent-campaign-20261117/cases/yasm241/poc.asm and patch d41d8cd98f00b204e9800998ecf8427e-address
+[2026-11-17 10:05:33] [🔍] Guessed relpath /src/yasm/libyasm/expr.c -> libyasm/expr.c
+[2026-11-17 10:05:33] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-parse.c -> modules/parsers/nasm/nasm-parse.c
+[2026-11-17 10:05:33] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-parse.c -> modules/parsers/nasm/nasm-parse.c
+[2026-11-17 10:05:33] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-parse.c -> modules/parsers/nasm/nasm-parse.c
+[2026-11-17 10:05:33] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-parser.c -> modules/parsers/nasm/nasm-parser.c
+[2026-11-17 10:05:33] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-parser.c -> modules/parsers/nasm/nasm-parser.c
+[2026-11-17 10:05:33] [🔍] Guessed relpath /src/yasm/frontends/yasm/yasm.c -> frontends/yasm/yasm.c
+initial status: Bug detected
+[2026-11-17 10:05:33] [🤖] Applying CommonCLikeAgent (model: glm-5.3, temp: 0, ah: False, #ce: 0)
+[2026-11-17 10:05:37] [📞] viewcode(path=src/yasm/libyasm/expr.c, start_line=985, end_line=1010)
+[2026-11-17 10:05:37] [🔍] Guessed relpath src/yasm/libyasm/expr.c -> libyasm/expr.c
+[2026-11-17 10:05:37] [📞] viewcode(path=src/yasm/modules/parsers/nasm/nasm-parse.c, start_line=1560, end_line=1600)
+[2026-11-17 10:05:37] [🔍] Guessed relpath src/yasm/modules/parsers/nasm/nasm-parse.c -> modules/parsers/nasm/nasm-parse.c
+[2026-11-17 10:05:42] [📞] locate(symbol=yasm_expr_copy)
+[2026-11-17 10:05:47] [📞] viewcode(path=src/yasm/libyasm/expr.h, start_line=160, end_line=185)
+[2026-11-17 10:05:47] [🔍] Guessed relpath src/yasm/libyasm/expr.h -> libyasm/expr.h
+[2026-11-17 10:05:50] [📞] viewcode(path=src/yasm/libyasm/expr.c, start_line=960, end_line=1010)
+[2026-11-17 10:05:50] [🔍] Guessed relpath src/yasm/libyasm/expr.c -> libyasm/expr.c
+[2026-11-17 10:06:00] [📞] validate(patch=--- a/src/yasm/libyasm/expr.c
++++ b/src/yasm/libyasm/expr.c
+@@ -992,6 +992,9 @@ yasm_expr *
+ yasm_expr__copy_except(const yasm_expr *e, int except)
+ {
+     yasm_expr *n;
++
++    if (!e)
++        return NULL;
++
+     int i;
+     
+     n = yasm_xmalloc(sizeof(yasm_expr) +
+)
+[2026-11-17 10:06:00] [🩹] Formatting patch
+[2026-11-17 10:06:00] [🔍] Guessed relpath src/yasm/libyasm/expr.c -> libyasm/expr.c
+[2026-11-17 10:06:00] [🩹] Formatting patch
+[2026-11-17 10:06:00] [🔍] Checking patch
+[2026-11-17 10:06:00] [🧱] Building yasm241 with patch 07d61b2529ed8167adc3b7317f826517-address
+[2026-11-17 10:06:20] [🔄] Replaying yasm241/yasm_fuzzer with PoC /home/qzt/patchagent-campaign-20261117/cases/yasm241/poc.asm and patch 07d61b2529ed8167adc3b7317f826517-address
+[2026-11-17 10:06:27] [🎉] Patch is found
+{"case": "yasm241", "model": "glm-5.3", "status": "patch_found", "metrics": {"model_request_count": 5, "model_response_count": 5, "model_error_callbacks": 0, "input_tokens": 17245, "output_tokens": 568, "total_tokens": 17813, "logged_llm_entries": 6, "tool_call_count": 6, "tool_calls_by_name": {"viewcode": 4, "locate": 1, "validate": 1}, "candidate_patch_generation_attempts": 1, "unique_candidate_patch_count": 1, "elapsed_seconds": 63.24}}

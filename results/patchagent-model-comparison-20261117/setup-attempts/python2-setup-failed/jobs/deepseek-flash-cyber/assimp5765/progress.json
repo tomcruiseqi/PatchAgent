@@ -1,0 +1,15 @@
+{
+  "status": "error",
+  "model_request_count": 0,
+  "model_response_count": 0,
+  "model_error_callbacks": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "total_tokens": 0,
+  "logged_llm_entries": 0,
+  "tool_call_count": 0,
+  "tool_calls_by_name": {},
+  "candidate_patch_generation_attempts": 0,
+  "unique_candidate_patch_count": 0,
+  "elapsed_seconds": 1.34
+}

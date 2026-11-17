@@ -1,0 +1,15 @@
+diff --git a/libyasm/expr.c b/libyasm/expr.c
+index c2c868e..8b3647e 100644
+--- a/libyasm/expr.c
++++ b/libyasm/expr.c
+@@ -993,6 +993,10 @@ yasm_expr *
+ yasm_expr__copy_except(const yasm_expr *e, int except)
+ {
+     yasm_expr *n;
++
++    if (!e)
++        return NULL;
++
+     int i;
+     
+     n = yasm_xmalloc(sizeof(yasm_expr) +

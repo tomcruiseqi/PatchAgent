@@ -1,0 +1,14 @@
+diff --git a/code/PostProcessing/SortByPTypeProcess.cpp b/code/PostProcessing/SortByPTypeProcess.cpp
+index 48ebbc57..27b445e4 100644
+--- a/code/PostProcessing/SortByPTypeProcess.cpp
++++ b/code/PostProcessing/SortByPTypeProcess.cpp
+@@ -171,6 +171,9 @@ void SortByPTypeProcess::Execute(aiScene *pScene) {
+ 
+         unsigned int numPolyVerts = 0;
+         for (; pFirstFace != pLastFace; ++pFirstFace) {
++            if (pFirstFace->mNumIndices == 0) {
++                throw DeadlyImportError("Mesh with invalid face: ", mesh->mName.C_Str());
++            }
+             if (pFirstFace->mNumIndices <= 3)
+                 ++aiNumPerPType[pFirstFace->mNumIndices - 1];
+             else {

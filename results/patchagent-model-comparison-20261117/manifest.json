@@ -1,0 +1,173 @@
+{
+  "campaign_started_at": "2026-11-17T09:18:53+08:00",
+  "remote_host": "192.168.0.230",
+  "runner": "PatchAgent one-agent deterministic configuration",
+  "patchagent_version": "1.1.0",
+  "python_version": "3.14.4",
+  "platform": "Linux-7.0.0-43-generic-x86_64-with-glibc2.43",
+  "models": [
+    {
+      "id": "deepseek-flash-cyber",
+      "name": "DeepSeek Flash Cyber",
+      "provider": "deepseek",
+      "base_url": "https://api.deepseek.com/v1",
+      "api_key_env": "DEEPSEEK_API_KEY",
+      "model_name": "deepseek-flash-cyber",
+      "max_tokens": 393216,
+      "context_window": 1048576,
+      "timeout": 900,
+      "supports_tools": true,
+      "max_retries": 3,
+      "extra": {
+        "reasoning_effort": "low",
+        "requests_per_minute": 240
+      }
+    },
+    {
+      "id": "deepseek-flash",
+      "name": "DeepSeek Flash",
+      "provider": "openai_compatible",
+      "base_url": "https://api.deepseek.com/v1",
+      "api_key_env": "DEEPSEEK_API_KEY",
+      "model_name": "deepseek-flash",
+      "max_tokens": 393216,
+      "context_window": 1048576,
+      "timeout": 600,
+      "supports_tools": true,
+      "max_retries": 3,
+      "extra": {
+        "reasoning_effort": "low",
+        "requests_per_minute": 240
+      }
+    },
+    {
+      "id": "glm-5.3",
+      "name": "GLM-5.3",
+      "provider": "openai_compatible",
+      "base_url": "https://api.icompify.com/v1",
+      "api_key_env": "GLM_API_KEY",
+      "model_name": "glm-5.3",
+      "max_tokens": 131072,
+      "context_window": 1048576,
+      "timeout": 1200,
+      "supports_tools": true,
+      "max_retries": 3,
+      "extra": {
+        "reasoning_effort": "low",
+        "requests_per_minute": 240
+      }
+    }
+  ],
+  "cases": {
+    "yasm241": {
+      "project": "yasm241",
+      "source": "yasm",
+      "poc": "poc.asm",
+      "harness": "yasm_fuzzer",
+      "source_revision": "533dcddfadecaf6486dcecd9cec884ac2256dcd4",
+      "source_path": "/home/qzt/patchagent-campaign-20261117/cases/yasm241/yasm",
+      "poc_path": "/home/qzt/patchagent-campaign-20261117/cases/yasm241/poc.asm",
+      "poc_sha256": "fd10bebb241000b207f39309c6259daee54e1324919a99426c4ef3c91c007df8",
+      "poc_bytes": 51
+    },
+    "yasm242": {
+      "project": "yasm241",
+      "source": "yasm",
+      "poc": "poc.asm",
+      "harness": "yasm_fuzzer",
+      "source_revision": "aee61e1b15e457863f4a0e0f77a4f77a3e03fd29",
+      "source_path": "/home/qzt/patchagent-campaign-20261117/cases/yasm242/yasm",
+      "poc_path": "/home/qzt/patchagent-campaign-20261117/cases/yasm242/poc.asm",
+      "poc_sha256": "b7a393be9014a12d2d9d9001691c8d135f435313149e8dba58ef8925863703c5",
+      "poc_bytes": 45
+    },
+    "yasm243": {
+      "project": "yasm241",
+      "source": "yasm",
+      "poc": "poc.asm",
+      "harness": "yasm_fuzzer",
+      "source_revision": "4431858336430eaa670501430c761f7dc5e8d2cb",
+      "source_path": "/home/qzt/patchagent-campaign-20261117/cases/yasm243/yasm",
+      "poc_path": "/home/qzt/patchagent-campaign-20261117/cases/yasm243/poc.asm",
+      "poc_sha256": "48c995e195c13f4d6a6c691b9d0b07a941197ff6348f9ec5890d987940aa3d7b",
+      "poc_bytes": 7
+    },
+    "assimp5763": {
+      "project": "assimp",
+      "source": "assimp",
+      "poc": "poc.bin",
+      "harness": "assimp_fuzzer",
+      "source_revision": "18064cb56dbb04f96fe8282e875f5dfc7e3fc616",
+      "source_path": "/home/qzt/patchagent-campaign-20261117/cases/assimp5763/assimp",
+      "poc_path": "/home/qzt/patchagent-campaign-20261117/cases/assimp5763/poc.bin",
+      "poc_sha256": "7bf4beaa16f880a63237066ffd81bcf0e0849d163a601cb145a404fb51a485f7",
+      "poc_bytes": 15170
+    },
+    "assimp5764": {
+      "project": "assimp",
+      "source": "assimp",
+      "poc": "poc.bin",
+      "harness": "assimp_fuzzer",
+      "source_revision": "d4c339f5c4f55950772833ff40ab8dfa91428223",
+      "source_path": "/home/qzt/patchagent-campaign-20261117/cases/assimp5764/assimp",
+      "poc_path": "/home/qzt/patchagent-campaign-20261117/cases/assimp5764/poc.bin",
+      "poc_sha256": "04a82d30621f0abbaa01563862bf382bc7e24e383b46541a314049d84cfba14c",
+      "poc_bytes": 151384
+    },
+    "assimp5765": {
+      "project": "assimp",
+      "source": "assimp",
+      "poc": "poc.bin",
+      "harness": "assimp_fuzzer",
+      "source_revision": "4d89e3646b44d74548c4a70934782c859fed753a",
+      "source_path": "/home/qzt/patchagent-campaign-20261117/cases/assimp5765/assimp",
+      "poc_path": "/home/qzt/patchagent-campaign-20261117/cases/assimp5765/poc.bin",
+      "poc_sha256": "21f17d6f42cb80ad7b5b2a237cce4c49d9c5dd45ef4ce0cfa12606abe167c842",
+      "poc_bytes": 170
+    }
+  },
+  "protocol": {
+    "runs": "one scored terminal result per model per case; retry only transport or infrastructure errors, archive every failed attempt under attempts/",
+    "order": [
+      "models in models.yaml order",
+      "cases in declaration order"
+    ],
+    "temperature": 0,
+    "max_iterations": 30,
+    "counterexample_num": 0,
+    "auto_hint": false,
+    "sanitizer": "AddressSanitizer",
+    "workspace_policy": "shared only within the same case to reuse identical build artifacts; run logs and candidates remain per model and case",
+    "interaction_count_definition": "LangChain chat-model callback starts; automatic provider retries are not separately counted",
+    "candidate_count_definition": "non-empty patch strings sent to the PatchAgent validate tool; unique counts use SHA-256 per run",
+    "tool_count_definition": "tool invocations logged in PatchAgent context messages",
+    "baseline_preflight": {
+      "yasm243": "preflight/yasm243-baseline-reproduce.json"
+    },
+    "secrets_file": "/home/qzt/secrets.env",
+    "secret_values_written": false
+  },
+  "runtime_adjustments": {
+    "libclang": "The campaign runner loads bundled libclang 16.0.6 from vendor/libclang16/libclang.so (SHA-256 63cb6917821dbbddf5cb2b4250f798059bc489cb05d95abcd42531ca4ef4d7f9) after importing PatchAgent because proxy.internal overwrites the host-specific libclang.so.1 path and the host has no such system library.",
+    "assimp_build_compatibility": "The OSS-Fuzz Assimp build harness adds -Wno-error=nontrivial-memcall for legacy source and skips fuzzer source files absent from each historical Assimp checkout. No Assimp source tree is changed. Before/after scripts and the exact patch are saved at setup-assimp-before.sh, setup-assimp-after.sh, and setup-assimp-compat.patch."
+  },
+  "notes": {
+    "yasm243": "The supplied case directory had no PoC. A minimal input was derived from the vulnerable lexer path and recorded as cases/yasm243/poc.asm; its baseline reproduction result is preserved separately."
+  },
+  "output_root": "results/patchagent-model-comparison-20261117",
+  "campaign_completed_at": "2026-11-17T10:43:11+08:00",
+  "remote_output_root": "/home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800",
+  "repository_transfer": {
+    "copied_inputs": {
+      "yasm241": "inputs/yasm241/poc.asm",
+      "yasm242": "inputs/yasm242/poc.asm",
+      "yasm243": "inputs/yasm243/poc.asm",
+      "assimp5763": "inputs/assimp5763/poc.bin",
+      "assimp5764": "inputs/assimp5764/poc.bin",
+      "assimp5765": "inputs/assimp5765/poc.bin"
+    },
+    "compiled_workspaces_transferred": false,
+    "secret_values_transferred": false,
+    "additional_setup_attempt_logs": "setup-attempts/"
+  }
+}

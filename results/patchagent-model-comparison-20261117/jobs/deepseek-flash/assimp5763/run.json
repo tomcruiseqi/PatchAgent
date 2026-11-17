@@ -1,0 +1,96 @@
+{
+  "model": {
+    "id": "deepseek-flash",
+    "name": "DeepSeek Flash",
+    "provider": "openai_compatible",
+    "base_url": "https://api.deepseek.com/v1",
+    "api_key_env": "DEEPSEEK_API_KEY",
+    "model_name": "deepseek-flash",
+    "max_tokens": 393216,
+    "context_window": 1048576,
+    "timeout": 600,
+    "supports_tools": true,
+    "max_retries": 3,
+    "extra": {
+      "reasoning_effort": "low",
+      "requests_per_minute": 240
+    }
+  },
+  "case": {
+    "id": "assimp5763",
+    "project": "assimp",
+    "source_path": "/home/qzt/patchagent-campaign-20261117/cases/assimp5763/assimp",
+    "source_revision": "5ad88ed6ea049b636d4efef8501b58bb25dc44df",
+    "poc_path": "/home/qzt/patchagent-campaign-20261117/cases/assimp5763/poc.bin",
+    "poc_sha256": "7bf4beaa16f880a63237066ffd81bcf0e0849d163a601cb145a404fb51a485f7",
+    "harness": "assimp_fuzzer",
+    "sanitizer": "AddressSanitizer"
+  },
+  "protocol": {
+    "temperature": 0,
+    "max_iterations": 30,
+    "agents_per_case": 1
+  },
+  "started_at": "2026-11-17T09:58:26+08:00",
+  "status": "patch_not_found",
+  "output_dir": "/home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/jobs/deepseek-flash/assimp5763",
+  "initial_status": "Bug detected",
+  "initial_report": "The sanitizer detected a heap buffer overflow vulnerability. The explanation of the vulnerability is: The program tried to access a heap object outside of its allocated memory, causing potential memory corruption or crashes. Here is the detail: \n\nREAD of size 4 at 0x7ad272febc50 thread T0\n    - Assimp::MD3Importer::InternReadFile(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&, aiScene*, Assimp::IOSystem*) /src/assimp/code/AssetLib/MD3/MD3Loader.cpp:1037:53\n    - Assimp::BaseImporter::ReadFile(Assimp::Importer*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&, Assimp::IOSystem*) /src/assimp/code/Common/BaseImporter.cpp:131:9\n    - Assimp::Importer::ReadFile(char const*, unsigned int) /src/assimp/code/Common/Importer.cpp:709:30\n    - Assimp::Importer::ReadFileFromMemory(void const*, unsigned long, unsigned int, char const*) /src/assimp/code/Common/Importer.cpp:507:9\n    - LLVMFuzzerTestOneInput /src/assimp/fuzz/assimp_fuzzer.cc:54:34\n    - fuzzer::Fuzzer::ExecuteCallback(unsigned char const*, unsigned long) /src/llvm-project/compiler-rt/lib/fuzzer/FuzzerLoop.cpp:619:13\n    - fuzzer::RunOneTest(fuzzer::Fuzzer*, char const*, unsigned long) /src/llvm-project/compiler-rt/lib/fuzzer/FuzzerDriver.cpp:329:6\n    - fuzzer::FuzzerDriver(int*, char***, int (*)(unsigned char const*, unsigned long)) /src/llvm-project/compiler-rt/lib/fuzzer/FuzzerDriver.cpp:865:9\n    - main /src/llvm-project/compiler-rt/lib/fuzzer/FuzzerMain.cpp:20:10\n\n0x7ad272febc50 is located 14 bytes after 15170-byte region [0x7ad272fe8100,0x7ad272febc42)\nallocated by thread T0 here:\n    - operator new(unsigned long) /src/llvm-project/compiler-rt/lib/asan/asan_new_delete.cpp:109:35\n    - __libcpp_allocate<unsigned char> /usr/local/include/c++/v1/__new/allocate.h:43:28\n    - allocate /usr/local/include/c++/v1/__memory/allocator.h:105:14\n    - __allocate_at_least<std::__1::allocator<unsigned char> > /usr/local/include/c++/v1/__memory/allocate_at_least.h:41:19\n    - __vallocate /usr/local/include/c++/v1/__vector/vector.h:583:25\n    - std::__1::vector<unsigned char, std::__1::allocator<unsigned char>>::vector[abi:ne220000](unsigned long) /usr/local/include/c++/v1/__vector/vector.h:150:7\n    - Assimp::MD3Importer::InternReadFile(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&, aiScene*, Assimp::IOSystem*) /src/assimp/code/AssetLib/MD3/MD3Loader.cpp:724:32\n    - Assimp::BaseImporter::ReadFile(Assimp::Importer*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&, Assimp::IOSystem*) /src/assimp/code/Common/BaseImporter.cpp:131:9\n    - Assimp::Importer::ReadFile(char const*, unsigned int) /src/assimp/code/Common/Importer.cpp:709:30\n    - Assimp::Importer::ReadFileFromMemory(void const*, unsigned long, unsigned int, char const*) /src/assimp/code/Common/Importer.cpp:507:9\n    - LLVMFuzzerTestOneInput /src/assimp/fuzz/assimp_fuzzer.cc:54:34\n    - fuzzer::Fuzzer::ExecuteCallback(unsigned char const*, unsigned long) /src/llvm-project/compiler-rt/lib/fuzzer/FuzzerLoop.cpp:619:13\n    - fuzzer::RunOneTest(fuzzer::Fuzzer*, char const*, unsigned long) /src/llvm-project/compiler-rt/lib/fuzzer/FuzzerDriver.cpp:329:6\n    - fuzzer::FuzzerDriver(int*, char***, int (*)(unsigned char const*, unsigned long)) /src/llvm-project/compiler-rt/lib/fuzzer/FuzzerDriver.cpp:865:9\n    - main /src/llvm-project/compiler-rt/lib/fuzzer/FuzzerMain.cpp:20:10\n\n\nTo fix this issue, follow the advice below:\n\n1. If overflow is unavoidable, allocate a sufficiently large buffer during initialization.\n2. Add explicit bounds checking before accessing arrays or buffers to prevent overflows.\n3. Replace unsafe functions like memcpy, strcpy, strcat, and sprintf with safer alternatives such as strncpy, strncat, and snprintf.\n4. Check for integer overflows in size calculations that could cause improper memory allocations.\n",
+  "candidate_patches": [
+    {
+      "index": 1,
+      "file": "candidate-patches/candidate-001.patch",
+      "sha256": "89c42d8f417fc9d3958ed89669dbaf8e771692a596a6c1f4b04298af3e79f15e",
+      "tool_call_index": 9,
+      "validation_result": "Sorry, the patch is incorrect. Here is the applied patch, which may have been revised and differ from the original:\n--- a/code/AssetLib/MD3/MD3Loader.cpp\n+++ b/code/AssetLib/MD3/MD3Loader.cpp\n@@ -379,11 +379,21 @@\n     if (pcHeader->NUM_SURFACES > AI_MAX_ALLOC(MD3::Surface)) {\n         throw DeadlyImportError(\"Invalid MD3 header: too many surfaces, would overflow\");\n     }\n \n     if (pcHeader->OFS_SURFACES + pcHeader->NUM_SURFACES * sizeof(MD3::Surface) >= fileSize) {\n         throw DeadlyImportError(\"Invalid MD3 header: some surfaces are outside the file\");\n     }\n \n+    // Make sure the complete tag block is inside the memory buffer. Otherwise the\n+    // tag loop in InternReadFile() would read past the end of the buffer.\n+    if (pcHeader->NUM_TAGS) {\n+        const uint64_t tags_end = static_cast<uint64_t>(pcHeader->OFS_TAGS) +\n+                                  static_cast<uint64_t>(pcHeader->NUM_TAGS) * sizeof(MD3::Tag);\n+        if (pcHeader->OFS_TAGS >= fileSize || tags_end > fileSize) {\n+            throw DeadlyImportError(\"Invalid MD3 header: some tags are outside the file\");\n+        }\n+    }\n+\n     if (pcHeader->NUM_FRAMES <= configFrameID)\n         throw DeadlyImportEr"
+    },
+    {
+      "index": 2,
+      "file": "candidate-patches/candidate-002.patch",
+      "sha256": "4ae45a772f30a318a4061fe03d0ea0e318ccebcb0a24343c9703073dcf71489a",
+      "tool_call_index": 11,
+      "validation_result": "Sorry, the patch is incorrect. Here is the applied patch, which may have been revised and differ from the original:\n--- a/code/AssetLib/MD3/MD3Loader.cpp\n+++ b/code/AssetLib/MD3/MD3Loader.cpp\n@@ -379,11 +379,19 @@\n     if (pcHeader->NUM_SURFACES > AI_MAX_ALLOC(MD3::Surface)) {\n         throw DeadlyImportError(\"Invalid MD3 header: too many surfaces, would overflow\");\n     }\n \n     if (pcHeader->OFS_SURFACES + pcHeader->NUM_SURFACES * sizeof(MD3::Surface) >= fileSize) {\n         throw DeadlyImportError(\"Invalid MD3 header: some surfaces are outside the file\");\n     }\n \n+    // Make sure the complete tag block is inside the memory buffer. Otherwise the\n+    // tag loop in InternReadFile() would read past the end of the buffer.\n+    if (pcHeader->NUM_TAGS > fileSize / sizeof(MD3::Tag) ||\n+            pcHeader->OFS_TAGS >= fileSize ||\n+            pcHeader->OFS_TAGS + pcHeader->NUM_TAGS * sizeof(MD3::Tag) > fileSize) {\n+        throw DeadlyImportError(\"Invalid MD3 header: some tags are outside the file\");\n+    }\n+\n     if (pcHeader->NUM_FRAMES <= configFrameID)\n         throw DeadlyImportError(\"The requested frame is not existing the file\");\n }\n\nHere is the validation report:\nBuild fail"
+    },
+    {
+      "index": 3,
+      "file": "candidate-patches/candidate-003.patch",
+      "sha256": "017cb8f4c29fa4be69cd65c668f6689a7af9674e7a180c6c4c110a6fd080c0ce",
+      "tool_call_index": 12,
+      "validation_result": "Sorry, the patch is incorrect. Here is the applied patch, which may have been revised and differ from the original:\n--- a/code/AssetLib/MD3/MD3Loader.cpp\n+++ b/code/AssetLib/MD3/MD3Loader.cpp\n@@ -387,6 +387,7 @@\n     if (pcHeader->NUM_FRAMES <= configFrameID)\n         throw DeadlyImportError(\"The requested frame is not existing the file\");\n }\n \n // ------------------------------------------------------------------------------------------------\n+// validate the surface offsets\n void MD3Importer::ValidateSurfaceHeaderOffsets(const MD3::Surface *pcSurf) {\n\nHere is the validation report:\nBuild failed"
+    },
+    {
+      "index": 4,
+      "file": "candidate-patches/candidate-004.patch",
+      "sha256": "4ae45a772f30a318a4061fe03d0ea0e318ccebcb0a24343c9703073dcf71489a",
+      "tool_call_index": 13,
+      "validation_result": "Sorry, the patch is incorrect. Here is the applied patch, which may have been revised and differ from the original:\n--- a/code/AssetLib/MD3/MD3Loader.cpp\n+++ b/code/AssetLib/MD3/MD3Loader.cpp\n@@ -379,11 +379,19 @@\n     if (pcHeader->NUM_SURFACES > AI_MAX_ALLOC(MD3::Surface)) {\n         throw DeadlyImportError(\"Invalid MD3 header: too many surfaces, would overflow\");\n     }\n \n     if (pcHeader->OFS_SURFACES + pcHeader->NUM_SURFACES * sizeof(MD3::Surface) >= fileSize) {\n         throw DeadlyImportError(\"Invalid MD3 header: some surfaces are outside the file\");\n     }\n \n+    // Make sure the complete tag block is inside the memory buffer. Otherwise the\n+    // tag loop in InternReadFile() would read past the end of the buffer.\n+    if (pcHeader->NUM_TAGS > fileSize / sizeof(MD3::Tag) ||\n+            pcHeader->OFS_TAGS >= fileSize ||\n+            pcHeader->OFS_TAGS + pcHeader->NUM_TAGS * sizeof(MD3::Tag) > fileSize) {\n+        throw DeadlyImportError(\"Invalid MD3 header: some tags are outside the file\");\n+    }\n+\n     if (pcHeader->NUM_FRAMES <= configFrameID)\n         throw DeadlyImportError(\"The requested frame is not existing the file\");\n }\n\nHere is the validation report:\nBuild fail"
+    },
+    {
+      "index": 5,
+      "file": "candidate-patches/candidate-005.patch",
+      "sha256": "a24f806d5cbe89cf3237d2a4d05859de4459a515824eea95d49d2ada0d87c0cc",
+      "tool_call_index": 14,
+      "validation_result": "agent stop"
+    }
+  ],
+  "metrics": {
+    "model_request_count": 12,
+    "model_response_count": 12,
+    "model_error_callbacks": 0,
+    "input_tokens": 168243,
+    "output_tokens": 6177,
+    "total_tokens": 174420,
+    "logged_llm_entries": 14,
+    "tool_call_count": 14,
+    "tool_calls_by_name": {
+      "viewcode": 8,
+      "locate": 1,
+      "validate": 5
+    },
+    "candidate_patch_generation_attempts": 5,
+    "unique_candidate_patch_count": 4,
+    "elapsed_seconds": 54.87
+  },
+  "finished_at": "2026-11-17T09:59:21+08:00",
+  "return_code": 2
+}

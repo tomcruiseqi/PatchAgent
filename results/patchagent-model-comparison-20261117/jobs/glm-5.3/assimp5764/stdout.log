@@ -1,0 +1,925 @@
+initializing assimp5764 with glm-5.3
+[2026-11-17 10:21:58] [🔄] Replaying assimp/assimp_fuzzer with PoC /home/qzt/patchagent-campaign-20261117/cases/assimp5764/poc.bin and patch d41d8cd98f00b204e9800998ecf8427e-address
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/llvm-project/compiler-rt/lib/sanitizer_common/sanitizer_stacktrace.h -> None
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/llvm-project/compiler-rt/lib/sanitizer_common/sanitizer_stacktrace.h -> None
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/llvm-project/compiler-rt/lib/asan/asan_new_delete.cpp -> None
+[2026-11-17 10:22:06] [🔍] Guessed relpath /usr/local/include/c++/v1/__new/allocate.h -> None
+[2026-11-17 10:22:06] [🔍] Guessed relpath /usr/local/include/c++/v1/__memory/allocator.h -> None
+[2026-11-17 10:22:06] [🔍] Guessed relpath /usr/local/include/c++/v1/__memory/allocator_traits.h -> None
+[2026-11-17 10:22:06] [🔍] Guessed relpath /usr/local/include/c++/v1/__memory/allocation_guard.h -> None
+[2026-11-17 10:22:06] [🔍] Guessed relpath /usr/local/include/c++/v1/list -> None
+[2026-11-17 10:22:06] [🔍] Guessed relpath /usr/local/include/c++/v1/list -> None
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:06] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:07] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+initial status: Bug detected
+[2026-11-17 10:22:07] [🤖] Applying CommonCLikeAgent (model: glm-5.3, temp: 0, ah: False, #ce: 0)
+[2026-11-17 10:22:10] [📞] viewcode(path=code/AssetLib/LWS/LWSLoader.cpp, start_line=60, end_line=140)
+[2026-11-17 10:22:10] [🔍] Guessed relpath code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:17] [📞] viewcode(path=code/AssetLib/LWS/LWSLoader.h, start_line=60, end_line=120)
+[2026-11-17 10:22:17] [🔍] Guessed relpath code/AssetLib/LWS/LWSLoader.h -> code/AssetLib/LWS/LWSLoader.h
+[2026-11-17 10:22:21] [📞] viewcode(path=code/AssetLib/LWS/LWSLoader.cpp, start_line=40, end_line=60)
+[2026-11-17 10:22:21] [🔍] Guessed relpath code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:23] [📞] viewcode(path=code/AssetLib/LWS/LWSLoader.h, start_line=40, end_line=60)
+[2026-11-17 10:22:23] [🔍] Guessed relpath code/AssetLib/LWS/LWSLoader.h -> code/AssetLib/LWS/LWSLoader.h
+[2026-11-17 10:22:24] [📞] viewcode(path=code/AssetLib/LWS/LWSLoader.cpp, start_line=78, end_line=130)
+[2026-11-17 10:22:24] [🔍] Guessed relpath code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:26] [📞] viewcode(path=code/AssetLib/LWS/LWSLoader.cpp, start_line=78, end_line=100)
+[2026-11-17 10:22:26] [🔍] Guessed relpath code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:27] [📞] viewcode(path=code/AssetLib/LWS/LWSLoader.cpp, start_line=78, end_line=130)
+[2026-11-17 10:22:27] [🔍] Guessed relpath code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:29] [📞] viewcode(path=code/AssetLib/LWS/LWSLoader.cpp, start_line=78, end_line=130)
+[2026-11-17 10:22:29] [🔍] Guessed relpath code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:44] [📞] validate(patch=diff --git a/code/AssetLib/LWS/LWSLoader.cpp b/code/AssetLib/LWS/LWSLoader.cpp
+--- a/code/AssetLib/LWS/LWSLoader.cpp
++++ b/code/AssetLib/LWS/LWSLoader.cpp
+@@ -79,7 +79,7 @@
+ // ------------------------------------------------------------------------------------------------
+ // Recursive parsing of LWS files
+-void LWS::Element::Parse(const char *&buffer, const char *end) {
++void LWS::Element::Parse(const char *&buffer, const char *end, unsigned int depth) {
+     for (; SkipSpacesAndLineEnd(&buffer, end); SkipLine(&buffer, end)) {
+ 
+         // begin of a new element with children
+@@ -120,7 +120,14 @@
+         children.back().tokens[1] = std::string(cur, (size_t)(buffer - cur));
+ 
+         // parse more elements recursively
+-        if (sub) {
++        if (sub && depth < 1000) {
+             children.back().Parse(buffer, end, depth + 1);
+         }
+     }
+diff --git a/code/AssetLib/LWS/LWSLoader.h b/code/AssetLib/LWS/LWSLoader.h
+--- a/code/AssetLib/LWS/LWSLoader.h
++++ b/code/AssetLib/LWS/LWSLoader.h
+@@ -78,7 +78,7 @@
+ 
+     //! Recursive parsing function
+-    void Parse(const char *&buffer, const char *end);
++    void Parse(const char *&buffer, const char *end, unsigned int depth = 0);
+ };
+)
+[2026-11-17 10:22:44] [🩹] Formatting patch
+[2026-11-17 10:22:44] [🔍] Guessed relpath code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:22:44] [🔍] Guessed relpath code/AssetLib/LWS/LWSLoader.h -> code/AssetLib/LWS/LWSLoader.h
+[2026-11-17 10:22:44] [🩹] Formatting patch
+[2026-11-17 10:22:44] [🔍] Checking patch
+[2026-11-17 10:22:44] [🧱] Building assimp with patch 5dd0cbb826c0c7c023fb3c5ba0564e10-address
+[2026-11-17 10:24:01] [🔄] Replaying assimp/assimp_fuzzer with PoC /home/qzt/patchagent-campaign-20261117/cases/assimp5764/poc.bin and patch 5dd0cbb826c0c7c023fb3c5ba0564e10-address
+[2026-11-17 10:24:17] [📞] validate(patch=diff --git a/code/AssetLib/LWS/LWSLoader.cpp b/code/AssetLib/LWS/LWSLoader.cpp
+--- a/code/AssetLib/LWS/LWSLoader.cpp
++++ b/code/AssetLib/LWS/LWSLoader.cpp
+@@ -78,7 +78,7 @@ static constexpr aiImporterDesc desc = {
+ 
+ // ------------------------------------------------------------------------------------------------
+ // Recursive parsing of LWS files
+-void LWS::Element::Parse(const char *&buffer, const char *end) {
++void LWS::Element::Parse(const char *&buffer, const char *end, unsigned int depth) {
+     for (; SkipSpacesAndLineEnd(&buffer, end); SkipLine(&buffer, end)) {
+ 
+         // begin of a new element with children
+@@ -120,7 +120,7 @@ void LWS::Element::Parse(const char *&buffer, const char *end) {
+         children.back().tokens[1] = std::string(cur, (size_t)(buffer - cur));
+ 
+         // parse more elements recursively
+-        if (sub) {
++        if (sub && depth < 1000) {
+             children.back().Parse(buffer, end, depth + 1);
+         }
+     }
+diff --git a/code/AssetLib/LWS/LWSLoader.h b/code/AssetLib/LWS/LWSLoader.h
+--- a/code/AssetLib/LWS/LWSLoader.h
++++ b/code/AssetLib/LWS/LWSLoader.h
+@@ -76,7 +76,7 @@ public:
+     std::list<Element> children;
+ 
+     //! Recursive parsing function
+-    void Parse(const char *&buffer, const char *end);
++    void Parse(const char *&buffer, const char *end, unsigned int depth = 0);
+)
+[2026-11-17 10:24:17] [🩹] Formatting patch
+[2026-11-17 10:24:17] [🔍] Checking patch
+[2026-11-17 10:24:17] [🔄] Replaying assimp/assimp_fuzzer with PoC /home/qzt/patchagent-campaign-20261117/cases/assimp5764/poc.bin and patch 5dd0cbb826c0c7c023fb3c5ba0564e10-address
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/llvm-project/compiler-rt/lib/sanitizer_common/sanitizer_stacktrace.h -> None
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/llvm-project/compiler-rt/lib/sanitizer_common/sanitizer_stacktrace.h -> None
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/llvm-project/compiler-rt/lib/asan/asan_new_delete.cpp -> None
+[2026-11-17 10:24:25] [🔍] Guessed relpath /usr/local/include/c++/v1/__new/allocate.h -> None
+[2026-11-17 10:24:25] [🔍] Guessed relpath /usr/local/include/c++/v1/__memory/allocator.h -> None
+[2026-11-17 10:24:25] [🔍] Guessed relpath /usr/local/include/c++/v1/__memory/allocator_traits.h -> None
+[2026-11-17 10:24:25] [🔍] Guessed relpath /usr/local/include/c++/v1/__memory/allocation_guard.h -> None
+[2026-11-17 10:24:25] [🔍] Guessed relpath /usr/local/include/c++/v1/list -> None
+[2026-11-17 10:24:25] [🔍] Guessed relpath /usr/local/include/c++/v1/list -> None
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:25] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:34] [📞] validate(patch=diff --git a/code/AssetLib/LWS/LWSLoader.cpp b/code/AssetLib/LWS/LWSLoader.cpp
+--- a/code/AssetLib/LWS/LWSLoader.cpp
++++ b/code/AssetLib/LWS/LWSLoader.cpp
+@@ -78,7 +78,7 @@ static constexpr aiImporterDesc desc = {
+ 
+ // ------------------------------------------------------------------------------------------------
+ // Recursive parsing of LWS files
+-void LWS::Element::Parse(const char *&buffer, const char *end) {
++void LWS::Element::Parse(const char *&buffer, const char *end, unsigned int depth) {
+     for (; SkipSpacesAndLineEnd(&buffer, end); SkipLine(&buffer, end)) {
+ 
+         // begin of a new element with children
+@@ -120,7 +120,7 @@ void LWS::Element::Parse(const char *&buffer, const char *end) {
+         children.back().tokens[1] = std::string(cur, (size_t)(buffer - cur));
+ 
+         // parse more elements recursively
+-        if (sub) {
++        if (sub && depth < 1000) {
+             children.back().Parse(buffer, end, depth + 1);
+         }
+     }
+diff --git a/code/AssetLib/LWS/LWSLoader.h b/code/AssetLib/LWS/LWSLoader.h
+--- a/code/AssetLib/LWS/LWSLoader.h
++++ b/code/AssetLib/LWS/LWSLoader.h
+@@ -76,7 +76,7 @@ public:
+     std::list<Element> children;
+ 
+     //! Recursive parsing function
+-    void Parse(const char *&buffer, const char *end);
++    void Parse(const char *&buffer, const char *end, unsigned int depth = 0);
+ };
+)
+[2026-11-17 10:24:34] [🩹] Formatting patch
+[2026-11-17 10:24:34] [🔍] Checking patch
+[2026-11-17 10:24:34] [🔄] Replaying assimp/assimp_fuzzer with PoC /home/qzt/patchagent-campaign-20261117/cases/assimp5764/poc.bin and patch 5dd0cbb826c0c7c023fb3c5ba0564e10-address
+[2026-11-17 10:24:42] [🚧] Incomplete file path: /src/llvm-project/compiler-rt/lib/sanitizer_common/sanitizer_allocator_combined.h:44:0 vs /src/llvm-project/compiler-rt/lib/asan/../sanitizer_common/sanitizer_allocator_combined.h:44
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/llvm-project/compiler-rt/lib/sanitizer_common/sanitizer_allocator_combined.h -> None
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/llvm-project/compiler-rt/lib/asan/asan_allocator.cpp -> None
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/llvm-project/compiler-rt/lib/asan/asan_allocator.cpp -> None
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/llvm-project/compiler-rt/lib/asan/asan_allocator.cpp -> None
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/llvm-project/compiler-rt/lib/asan/asan_new_delete.cpp -> None
+[2026-11-17 10:24:42] [🔍] Guessed relpath /usr/local/include/c++/v1/__new/allocate.h -> None
+[2026-11-17 10:24:42] [🔍] Guessed relpath /usr/local/include/c++/v1/__memory/allocator.h -> None
+[2026-11-17 10:24:42] [🔍] Guessed relpath /usr/local/include/c++/v1/__memory/allocator_traits.h -> None
+[2026-11-17 10:24:42] [🔍] Guessed relpath /usr/local/include/c++/v1/__memory/allocation_guard.h -> None
+[2026-11-17 10:24:42] [🔍] Guessed relpath /usr/local/include/c++/v1/list -> None
+[2026-11-17 10:24:42] [🔍] Guessed relpath /usr/local/include/c++/v1/list -> None
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:42] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 10:24:56] [📞] validate(patch=diff --git a/code/AssetLib/LWS/LWSLoader.cpp b/code/AssetLib/LWS/LWSLoader.cpp
+--- a/code/AssetLib/LWS/LWSLoader.cpp
++++ b/code/AssetLib/LWS/LWSLoader.cpp
+@@ -78,7 +78,7 @@ static constexpr aiImporterDesc desc = {
+ 
+ // ------------------------------------------------------------------------------------------------
+ // Recursive parsing of LWS files
+-void LWS::Element::Parse(const char *&buffer, const char *end) {
++void LWS::Element::Parse(const char *&buffer, const char *end, unsigned int depth) {
+     for (; SkipSpacesAndLineEnd(&buffer, end); SkipLine(&buffer, end)) {
+ 
+         // begin of a new element with children
+@@ -120,7 +120,7 @@ void LWS::Element::Parse(const char *&buffer, const char *end) {
+         children.back().tokens[1] = std::string(cur, (size_t)(buffer - cur));
+ 
+         // parse more elements recursively
+-        if (sub) {
++        if (sub && depth < 1000) {
+             children.back().Parse(buffer, end, depth + 1);
+         }
+     }
+diff --git a/code/AssetLib/LWS/LWSLoader.h b/code/AssetLib/LWS/LWSLoader.h
+--- a/code/AssetLib/LWS/LWSLoader.h
++++ b/code/AssetLib/LWS/LWSLoader.h
+@@ -76,7 +76,7 @@ public:
+     std::list<Element> children;
+ 
+     //! Recursive parsing function
+-    void Parse(const char *&buffer, const char *end);
++    void Parse(const char *&buffer, const char *end, unsigned int depth = 0);
+ };
+)
+[2026-11-17 10:24:56] [🛑] Agent stopped because The number of validation tries has reached the maximum limit.
+{"case": "assimp5764", "model": "glm-5.3", "status": "patch_not_found", "metrics": {"model_request_count": 12, "model_response_count": 12, "model_error_callbacks": 0, "input_tokens": 207638, "output_tokens": 2536, "total_tokens": 210174, "logged_llm_entries": 12, "tool_call_count": 12, "tool_calls_by_name": {"viewcode": 8, "validate": 4}, "candidate_patch_generation_attempts": 4, "unique_candidate_patch_count": 2, "elapsed_seconds": 177.78}}

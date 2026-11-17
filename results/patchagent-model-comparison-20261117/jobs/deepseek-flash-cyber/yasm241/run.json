@@ -1,0 +1,69 @@
+{
+  "model": {
+    "id": "deepseek-flash-cyber",
+    "name": "DeepSeek Flash Cyber",
+    "provider": "deepseek",
+    "base_url": "https://api.deepseek.com/v1",
+    "api_key_env": "DEEPSEEK_API_KEY",
+    "model_name": "deepseek-flash-cyber",
+    "max_tokens": 393216,
+    "context_window": 1048576,
+    "timeout": 900,
+    "supports_tools": true,
+    "max_retries": 3,
+    "extra": {
+      "reasoning_effort": "low",
+      "requests_per_minute": 240
+    }
+  },
+  "case": {
+    "id": "yasm241",
+    "project": "yasm241",
+    "source_path": "/home/qzt/patchagent-campaign-20261117/cases/yasm241/yasm",
+    "source_revision": "721134a8aee87a94f19b53c6dc43a956427973a0",
+    "poc_path": "/home/qzt/patchagent-campaign-20261117/cases/yasm241/poc.asm",
+    "poc_sha256": "fd10bebb241000b207f39309c6259daee54e1324919a99426c4ef3c91c007df8",
+    "harness": "yasm_fuzzer",
+    "sanitizer": "AddressSanitizer"
+  },
+  "protocol": {
+    "temperature": 0,
+    "max_iterations": 30,
+    "agents_per_case": 1
+  },
+  "started_at": "2026-11-17T09:18:53+08:00",
+  "status": "patch_found",
+  "output_dir": "/home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/jobs/deepseek-flash-cyber/yasm241",
+  "initial_status": "Bug detected",
+  "initial_report": "The sanitizer detected a null dereference vulnerability. The explanation of the vulnerability is: The program attempts to dereference a null pointer, causing a segmentation fault or crash. Here is the detail: \n\nThe signal is caused by a READ memory access.\nHint: address points to the zero page.\n    - yasm_expr__copy_except /src/yasm/libyasm/expr.c:999:50\n    - nasm_parser_directive /src/yasm/modules/parsers/nasm/nasm-parse.c:1585:35\n    - parse_line /src/yasm/modules/parsers/nasm/nasm-parse.c:377:17\n    - nasm_parser_parse /src/yasm/modules/parsers/nasm/nasm-parse.c:231:18\n    - nasm_do_parse /src/yasm/modules/parsers/nasm/nasm-parser.c:66:5\n    - nasm_parser_do_parse /src/yasm/modules/parsers/nasm/nasm-parser.c:83:5\n    - do_assemble /src/yasm/frontends/yasm/yasm.c:641:5\n\nRegister values:\nrax = 0x0000000000000000  rbx = 0x0000000000000000  rcx = 0x00000afd61a1b02c  rdx = 0x0000000000000006  \nrdi = 0x0000000000000010  rsi = 0x00000000ffffffff  rbp = 0x00007ffef54c69f0  rsp = 0x00007ffef54c69b0  \n r8 = 0x0000000000000001   r9 = 0x000000009b7e6c00  r10 = 0x00007fffffffff01  r11 = 0x0000000000000001  \nr12 = 0x000057eb0d011d30  r13 = 0x0000750f9c3802d8  r14 = 0x0000000000000002  r15 = 0x00000000ffffffff  \n\nTo fix this issue, follow the advice below:\n\n1. Ensure all pointers are initialized before use to prevent null dereferences.\n2. Validate pointer values before dereferencing them.\n3. Implement default values for pointers to reduce the risk of unintended NULL dereferences.",
+  "final_patch_sha256": "48d28cbc117e2250e0742c7dcd62ed172a6aaf178178c5ae1509f32430996a2a",
+  "candidate_patches": [
+    {
+      "index": 1,
+      "file": "candidate-patches/candidate-001.patch",
+      "sha256": "48d28cbc117e2250e0742c7dcd62ed172a6aaf178178c5ae1509f32430996a2a",
+      "tool_call_index": 12,
+      "validation_result": "patch found"
+    }
+  ],
+  "metrics": {
+    "model_request_count": 7,
+    "model_response_count": 7,
+    "model_error_callbacks": 0,
+    "input_tokens": 39134,
+    "output_tokens": 1885,
+    "total_tokens": 41019,
+    "logged_llm_entries": 12,
+    "tool_call_count": 12,
+    "tool_calls_by_name": {
+      "viewcode": 8,
+      "locate": 3,
+      "validate": 1
+    },
+    "candidate_patch_generation_attempts": 1,
+    "unique_candidate_patch_count": 1,
+    "elapsed_seconds": 73.54
+  },
+  "finished_at": "2026-11-17T09:20:07+08:00",
+  "return_code": 0
+}

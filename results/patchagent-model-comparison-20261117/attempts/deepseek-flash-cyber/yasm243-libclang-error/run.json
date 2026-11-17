@@ -1,0 +1,61 @@
+{
+  "model": {
+    "id": "deepseek-flash-cyber",
+    "name": "DeepSeek Flash Cyber",
+    "provider": "deepseek",
+    "base_url": "https://api.deepseek.com/v1",
+    "api_key_env": "DEEPSEEK_API_KEY",
+    "model_name": "deepseek-flash-cyber",
+    "max_tokens": 393216,
+    "context_window": 1048576,
+    "timeout": 900,
+    "supports_tools": true,
+    "max_retries": 3,
+    "extra": {
+      "reasoning_effort": "low",
+      "requests_per_minute": 240
+    }
+  },
+  "case": {
+    "id": "yasm243",
+    "project": "yasm241",
+    "source_path": "/home/qzt/patchagent-campaign-20261117/cases/yasm243/yasm",
+    "source_revision": "dfc1c9e84142ae84b976dd863a11a9d95528210f",
+    "poc_path": "/home/qzt/patchagent-campaign-20261117/cases/yasm243/poc.asm",
+    "poc_sha256": "48c995e195c13f4d6a6c691b9d0b07a941197ff6348f9ec5890d987940aa3d7b",
+    "harness": "yasm_fuzzer",
+    "sanitizer": "AddressSanitizer"
+  },
+  "protocol": {
+    "temperature": 0,
+    "max_iterations": 30,
+    "agents_per_case": 1
+  },
+  "started_at": "2026-11-17T09:23:01+08:00",
+  "status": "error",
+  "output_dir": "/home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/jobs/deepseek-flash-cyber/yasm243",
+  "initial_status": "Bug detected",
+  "initial_report": "The sanitizer detected a heap buffer overflow vulnerability. The explanation of the vulnerability is: The program tried to access a heap object outside of its allocated memory, causing potential memory corruption or crashes. Here is the detail: \n\nREAD of size 1 at 0x7c17351e6af3 thread T0\n    - handle_dot_label /src/yasm/modules/parsers/nasm/nasm-token.re:82:13\n    - nasm_parser_lex /src/yasm/modules/parsers/nasm/nasm-token.re:0:0\n    - parse_exp /src/yasm/modules/parsers/nasm/nasm-parse.c:578:13\n    - parse_line /src/yasm/modules/parsers/nasm/nasm-parse.c:289:10\n    - nasm_parser_parse /src/yasm/modules/parsers/nasm/nasm-parse.c:231:18\n    - nasm_do_parse /src/yasm/modules/parsers/nasm/nasm-parser.c:66:5\n    - nasm_parser_do_parse /src/yasm/modules/parsers/nasm/nasm-parser.c:83:5\n    - do_assemble /src/yasm/frontends/yasm/yasm.c:641:5\n\n0x7c17351e6af3 is located 0 bytes after 3-byte region [0x7c17351e6af0,0x7c17351e6af3)\nallocated by thread T0 here:\n    - malloc /src/llvm-project/compiler-rt/lib/asan/asan_malloc_linux.cpp:67:3\n    - def_xmalloc /src/yasm/libyasm/xmalloc.c:69:14\n    - yasm__xstrndup /src/yasm/libyasm/xstrdup.c:64:16\n    - handle_dot_label /src/yasm/modules/parsers/nasm/nasm-token.re:79:26\n    - nasm_parser_lex /src/yasm/modules/parsers/nasm/nasm-token.re:0:0\n    - parse_exp /src/yasm/modules/parsers/nasm/nasm-parse.c:578:13\n    - parse_line /src/yasm/modules/parsers/nasm/nasm-parse.c:289:10\n    - nasm_parser_parse /src/yasm/modules/parsers/nasm/nasm-parse.c:231:18\n    - nasm_do_parse /src/yasm/modules/parsers/nasm/nasm-parser.c:66:5\n    - nasm_parser_do_parse /src/yasm/modules/parsers/nasm/nasm-parser.c:83:5\n    - do_assemble /src/yasm/frontends/yasm/yasm.c:641:5\n\n\nTo fix this issue, follow the advice below:\n\n1. If overflow is unavoidable, allocate a sufficiently large buffer during initialization.\n2. Add explicit bounds checking before accessing arrays or buffers to prevent overflows.\n3. Replace unsafe functions like memcpy, strcpy, strcat, and sprintf with safer alternatives such as strncpy, strncat, and snprintf.\n4. Check for integer overflows in size calculations that could cause improper memory allocations.\n",
+  "error_type": "LibclangError",
+  "error": "/usr/lib/llvm-16/lib/libclang.so.1: cannot open shared object file: No such file or directory. To provide a path to libclang use Config.set_library_path() or Config.set_library_file().",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/qzt/patchagent-campaign-20261117/.venv/lib/python3.14/site-packages/clang/cindex.py\", line 4242, in get_cindex_library\n    library = cdll.LoadLibrary(self.get_filename())\n  File \"/usr/lib/python3.14/ctypes/__init__.py\", line 554, in LoadLibrary\n    return self._dlltype(name)\n           ~~~~~~~~~~~~~^^^^^^\n  File \"/usr/lib/python3.14/ctypes/__init__.py\", line 433, in __init__\n    self._handle = self._load_library(name, mode, handle, winmode)\n                   ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.14/ctypes/__init__.py\", line 475, in _load_library\n    return _dlopen(name, mode)\nOSError: /usr/lib/llvm-16/lib/libclang.so.1: cannot open shared object file: No such file or directory\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/qzt/patchagent-campaign-20261117/bin/run_case.py\", line 311, in main\n    patch = task.repair(one_agent)\n  File \"/home/qzt/patchagent-campaign-20261117/src/patchagent/task.py\", line 124, in repair\n    if (patch := agent()) is not None:\n                 ~~~~~^^\n  File \"/home/qzt/patchagent-campaign-20261117/src/patchagent/agent/base.py\", line 38, in __call__\n    return self._run_once()\n           ~~~~~~~~~~~~~~^^\n  File \"/home/qzt/patchagent-campaign-20261117/src/patchagent/agent/base.py\", line 24, in _run_once\n    self.apply()\n    ~~~~~~~~~~^^\n  File \"/home/qzt/patchagent-campaign-20261117/src/patchagent/agent/clike/common.py\", line 139, in apply\n    _ = self.agent_executor.invoke({})\n  File \"/home/qzt/patchagent-campaign-20261117/.venv/lib/python3.14/site-packages/langchain_classic/chains/base.py\", line 167, in invoke\n    self._call(inputs, run_manager=run_manager)\n    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/qzt/patchagent-campaign-20261117/.venv/lib/python3.14/site-packages/langchain_classic/agents/agent.py\", line 1605, in _call\n    next_step_output = self._take_next_step(\n        name_to_tool_map,\n    ...<3 lines>...\n        run_manager=run_manager,\n    )\n  File \"/home/qzt/patchagent-campaign-20261117/.venv/lib/python3.14/site-packages/langchain_classic/agents/agent.py\", line 1305, in _take_next_step\n    list(\n    ~~~~^\n        self._iter_next_step(\n        ^^^^^^^^^^^^^^^^^^^^^\n    ...<5 lines>...\n        ),\n        ^^\n    ),\n    ^\n  File \"/home/qzt/patchagent-campaign-20261117/.venv/lib/python3.14/site-packages/langchain_classic/agents/agent.py\", line 1388, in _iter_next_step\n    yield self._perform_agent_action(\n          ~~~~~~~~~~~~~~~~~~~~~~~~~~^\n        name_to_tool_map,\n        ^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        run_manager,\n        ^^^^^^^^^^^^\n    )\n    ^\n  File \"/home/qzt/patchagent-campaign-20261117/.venv/lib/python3.14/site-packages/langchain_classic/agents/agent.py\", line 1413, in _perform_agent_action\n    observation = tool.run(\n        agent_action.tool_input,\n    ...<3 lines>...\n        **tool_run_kwargs,\n    )\n  File \"/home/qzt/patchagent-campaign-20261117/.venv/lib/python3.14/site-packages/langchain_core/tools/base.py\", line 932, in run\n    raise error_to_raise\n  File \"/home/qzt/patchagent-campaign-20261117/.venv/lib/python3.14/site-packages/langchain_core/tools/base.py\", line 898, in run\n    response = context.run(self._run, *tool_args, **tool_kwargs)\n  File \"/home/qzt/patchagent-campaign-20261117/.venv/lib/python3.14/site-packages/langchain_core/tools/structured.py\", line 93, in _run\n    return self.func(*args, **kwargs)\n           ~~~~~~~~~^^^^^^^^^^^^^^^^^\n  File \"/home/qzt/patchagent-campaign-20261117/src/patchagent/agent/clike/proxy/default.py\", line 36, in locate\n    args, result = internal.locate(task, symbol, auto_hint=auto_hint)\n                   ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/qzt/patchagent-campaign-20261117/src/patchagent/agent/clike/proxy/internal.py\", line 127, in locate\n    locations = helper(task, symbol)\n  File \"/home/qzt/patchagent-campaign-20261117/src/patchagent/agent/clike/proxy/internal.py\", line 85, in helper\n    index = clang.cindex.Index.create()\n  File \"/home/qzt/patchagent-campaign-20261117/.venv/lib/python3.14/site-packages/clang/cindex.py\", line 2756, in create\n    return Index(conf.lib.clang_createIndex(excludeDecls, 0))\n                 ^^^^^^^^\n  File \"/home/qzt/patchagent-campaign-20261117/.venv/lib/python3.14/site-packages/clang/cindex.py\", line 212, in __get__\n    value = self.wrapped(instance)\n  File \"/home/qzt/patchagent-campaign-20261117/.venv/lib/python3.14/site-packages/clang/cindex.py\", line 4216, in lib\n    lib = self.get_cindex_library()\n  File \"/home/qzt/patchagent-campaign-20261117/.venv/lib/python3.14/site-packages/clang/cindex.py\", line 4247, in get_cindex_library\n    raise LibclangError(msg)\nclang.cindex.LibclangError: /usr/lib/llvm-16/lib/libclang.so.1: cannot open shared object file: No such file or directory. To provide a path to libclang use Config.set_library_path() or Config.set_library_file().\n",
+  "candidate_patches": [],
+  "metrics": {
+    "model_request_count": 7,
+    "model_response_count": 7,
+    "model_error_callbacks": 0,
+    "input_tokens": 45637,
+    "output_tokens": 1003,
+    "total_tokens": 46640,
+    "logged_llm_entries": 7,
+    "tool_call_count": 6,
+    "tool_calls_by_name": {
+      "viewcode": 6
+    },
+    "candidate_patch_generation_attempts": 0,
+    "unique_candidate_patch_count": 0,
+    "elapsed_seconds": 48.47
+  },
+  "finished_at": "2026-11-17T09:23:49+08:00",
+  "return_code": 1
+}

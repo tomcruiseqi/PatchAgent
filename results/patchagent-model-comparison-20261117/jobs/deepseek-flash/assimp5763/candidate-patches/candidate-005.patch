@@ -1,0 +1,22 @@
+--- a/code/AssetLib/MD3/MD3Loader.cpp
++++ b/code/AssetLib/MD3/MD3Loader.cpp
+@@ -379,11 +379,18 @@ void MD3Importer::ValidateHeaderOffsets() {
+     if (pcHeader->NUM_SURFACES > AI_MAX_ALLOC(MD3::Surface)) {
+         throw DeadlyImportError("Invalid MD3 header: too many surfaces, would overflow");
+     }
+ 
+     if (pcHeader->OFS_SURFACES + pcHeader->NUM_SURFACES * sizeof(MD3::Surface) >= fileSize) {
+         throw DeadlyImportError("Invalid MD3 header: some surfaces are outside the file");
+     }
+ 
++    // Make sure the complete tag block is inside the memory buffer. Otherwise the
++    // tag loop in InternReadFile() would read past the end of the buffer.
++    if (pcHeader->NUM_TAGS > fileSize / sizeof(MD3::Tag) ||
++            pcHeader->OFS_TAGS >= fileSize ||
++            pcHeader->OFS_TAGS + pcHeader->NUM_TAGS * sizeof(MD3::Tag) > fileSize) {
++        throw DeadlyImportError("Invalid MD3 header: some tags are outside the file");
++    }
++
+     if (pcHeader->NUM_FRAMES <= configFrameID)
+         throw DeadlyImportError("The requested frame is not existing the file");
+ }

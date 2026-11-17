@@ -1,0 +1,69 @@
+{
+  "model": {
+    "id": "deepseek-flash",
+    "name": "DeepSeek Flash",
+    "provider": "openai_compatible",
+    "base_url": "https://api.deepseek.com/v1",
+    "api_key_env": "DEEPSEEK_API_KEY",
+    "model_name": "deepseek-flash",
+    "max_tokens": 393216,
+    "context_window": 1048576,
+    "timeout": 600,
+    "supports_tools": true,
+    "max_retries": 3,
+    "extra": {
+      "reasoning_effort": "low",
+      "requests_per_minute": 240
+    }
+  },
+  "case": {
+    "id": "yasm243",
+    "project": "yasm241",
+    "source_path": "/home/qzt/patchagent-campaign-20261117/cases/yasm243/yasm",
+    "source_revision": "7e44a38a011b5879998332713b8d3124c847b26b",
+    "poc_path": "/home/qzt/patchagent-campaign-20261117/cases/yasm243/poc.asm",
+    "poc_sha256": "48c995e195c13f4d6a6c691b9d0b07a941197ff6348f9ec5890d987940aa3d7b",
+    "harness": "yasm_fuzzer",
+    "sanitizer": "AddressSanitizer"
+  },
+  "protocol": {
+    "temperature": 0,
+    "max_iterations": 30,
+    "agents_per_case": 1
+  },
+  "started_at": "2026-11-17T09:57:03+08:00",
+  "status": "patch_found",
+  "output_dir": "/home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/jobs/deepseek-flash/yasm243",
+  "initial_status": "Bug detected",
+  "initial_report": "The sanitizer detected a heap buffer overflow vulnerability. The explanation of the vulnerability is: The program tried to access a heap object outside of its allocated memory, causing potential memory corruption or crashes. Here is the detail: \n\nREAD of size 1 at 0x70c324de6af3 thread T0\n    - handle_dot_label /src/yasm/modules/parsers/nasm/nasm-token.re:82:13\n    - nasm_parser_lex /src/yasm/modules/parsers/nasm/nasm-token.re:0:0\n    - parse_exp /src/yasm/modules/parsers/nasm/nasm-parse.c:578:13\n    - parse_line /src/yasm/modules/parsers/nasm/nasm-parse.c:289:10\n    - nasm_parser_parse /src/yasm/modules/parsers/nasm/nasm-parse.c:231:18\n    - nasm_do_parse /src/yasm/modules/parsers/nasm/nasm-parser.c:66:5\n    - nasm_parser_do_parse /src/yasm/modules/parsers/nasm/nasm-parser.c:83:5\n    - do_assemble /src/yasm/frontends/yasm/yasm.c:641:5\n\n0x70c324de6af3 is located 0 bytes after 3-byte region [0x70c324de6af0,0x70c324de6af3)\nallocated by thread T0 here:\n    - malloc /src/llvm-project/compiler-rt/lib/asan/asan_malloc_linux.cpp:67:3\n    - def_xmalloc /src/yasm/libyasm/xmalloc.c:69:14\n    - yasm__xstrndup /src/yasm/libyasm/xstrdup.c:64:16\n    - handle_dot_label /src/yasm/modules/parsers/nasm/nasm-token.re:79:26\n    - nasm_parser_lex /src/yasm/modules/parsers/nasm/nasm-token.re:0:0\n    - parse_exp /src/yasm/modules/parsers/nasm/nasm-parse.c:578:13\n    - parse_line /src/yasm/modules/parsers/nasm/nasm-parse.c:289:10\n    - nasm_parser_parse /src/yasm/modules/parsers/nasm/nasm-parse.c:231:18\n    - nasm_do_parse /src/yasm/modules/parsers/nasm/nasm-parser.c:66:5\n    - nasm_parser_do_parse /src/yasm/modules/parsers/nasm/nasm-parser.c:83:5\n    - do_assemble /src/yasm/frontends/yasm/yasm.c:641:5\n\n\nTo fix this issue, follow the advice below:\n\n1. If overflow is unavoidable, allocate a sufficiently large buffer during initialization.\n2. Add explicit bounds checking before accessing arrays or buffers to prevent overflows.\n3. Replace unsafe functions like memcpy, strcpy, strcat, and sprintf with safer alternatives such as strncpy, strncat, and snprintf.\n4. Check for integer overflows in size calculations that could cause improper memory allocations.\n",
+  "final_patch_sha256": "aee2e5649aa22cf8ad6872483e6328e2712f5356d6005f804529962d8aa0beb9",
+  "candidate_patches": [
+    {
+      "index": 1,
+      "file": "candidate-patches/candidate-001.patch",
+      "sha256": "aee2e5649aa22cf8ad6872483e6328e2712f5356d6005f804529962d8aa0beb9",
+      "tool_call_index": 15,
+      "validation_result": "patch found"
+    }
+  ],
+  "metrics": {
+    "model_request_count": 11,
+    "model_response_count": 11,
+    "model_error_callbacks": 0,
+    "input_tokens": 111316,
+    "output_tokens": 6749,
+    "total_tokens": 118065,
+    "logged_llm_entries": 15,
+    "tool_call_count": 15,
+    "tool_calls_by_name": {
+      "viewcode": 10,
+      "locate": 4,
+      "validate": 1
+    },
+    "candidate_patch_generation_attempts": 1,
+    "unique_candidate_patch_count": 1,
+    "elapsed_seconds": 82.5
+  },
+  "finished_at": "2026-11-17T09:58:25+08:00",
+  "return_code": 0
+}

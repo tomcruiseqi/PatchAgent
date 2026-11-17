@@ -1,0 +1,89 @@
++ FUZZER=yasm_fuzzer
++ shift
++ '[' '!' -v TESTCASE ']'
++ TESTCASE=/testcase
++ '[' '!' -f /testcase ']'
++ export RUN_FUZZER_MODE=interactive
++ RUN_FUZZER_MODE=interactive
++ export FUZZING_ENGINE=libfuzzer
++ FUZZING_ENGINE=libfuzzer
++ export SKIP_SEED_CORPUS=1
++ SKIP_SEED_CORPUS=1
++ run_fuzzer yasm_fuzzer -runs=100 -detect_leaks=0 /testcase
+sysctl: permission denied on key "vm.mmap_rnd_bits", ignoring
+/out/yasm_fuzzer -- -rss_limit_mb=2560 -timeout=25 -runs=100 -detect_leaks=0 /testcase < /dev/null
+INFO: libFuzzer ignores flags that start with '--'
+INFO: Running with entropic power schedule (0xFF, 100).
+INFO: Seed: 2285435512
+INFO: Loaded 1 modules   (47 inline 8-bit counters): 47 [0x624414359050, 0x62441435907f), 
+INFO: Loaded 1 PC tables (47 PCs): 47 [0x624414359080,0x624414359370), 
+/out/yasm_fuzzer: Running 1 inputs 100 time(s) each.
+Running: /testcase
+yasm: file name already has no extension: output will be in `yasm.out'
+=================================================================
+==11==ERROR: AddressSanitizer: heap-buffer-overflow on address 0x7713e57e6af3 at pc 0x5d96ab44fbe7 bp 0x7ffd1fcb76a0 sp 0x7ffd1fcb7698
+READ of size 1 at 0x7713e57e6af3 thread T0
+SCARINESS: 12 (1-byte-read-heap-buffer-overflow)
+    #0 0x5d96ab44fbe6 in handle_dot_label /src/yasm/modules/parsers/nasm/nasm-token.re:82:13
+    #1 0x5d96ab44b8d0 in nasm_parser_lex /src/yasm/modules/parsers/nasm/nasm-token.re
+    #2 0x5d96ab434e97 in parse_exp /src/yasm/modules/parsers/nasm/nasm-parse.c:578:13
+    #3 0x5d96ab4321c3 in parse_line /src/yasm/modules/parsers/nasm/nasm-parse.c:289:10
+    #4 0x5d96ab4321c3 in nasm_parser_parse /src/yasm/modules/parsers/nasm/nasm-parse.c:231:18
+    #5 0x5d96ab431a6e in nasm_do_parse /src/yasm/modules/parsers/nasm/nasm-parser.c:66:5
+    #6 0x5d96ab431a6e in nasm_parser_do_parse /src/yasm/modules/parsers/nasm/nasm-parser.c:83:5
+    #7 0x5d96ab3f4619 in do_assemble /src/yasm/frontends/yasm/yasm.c:641:5
+    #8 0x7af3e64d4082 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x24082) (BuildId: 5792732f783158c66fb4f3756458ca24e46e827d)
+    #9 0x5d96ab30b61d in _start (/out/yasm-bin+0x12c61d)
+
+DEDUP_TOKEN: handle_dot_label--nasm_parser_lex--parse_exp
+0x7713e57e6af3 is located 0 bytes after 3-byte region [0x7713e57e6af0,0x7713e57e6af3)
+allocated by thread T0 here:
+    #0 0x5d96ab3aeda4 in malloc /src/llvm-project/compiler-rt/lib/asan/asan_malloc_linux.cpp:67:3
+    #1 0x5d96ab530d65 in def_xmalloc /src/yasm/libyasm/xmalloc.c:69:14
+    #2 0x5d96ab531088 in yasm__xstrndup /src/yasm/libyasm/xstrdup.c:64:16
+    #3 0x5d96ab44f7c6 in handle_dot_label /src/yasm/modules/parsers/nasm/nasm-token.re:79:26
+    #4 0x5d96ab44b8d0 in nasm_parser_lex /src/yasm/modules/parsers/nasm/nasm-token.re
+    #5 0x5d96ab434e97 in parse_exp /src/yasm/modules/parsers/nasm/nasm-parse.c:578:13
+    #6 0x5d96ab4321c3 in parse_line /src/yasm/modules/parsers/nasm/nasm-parse.c:289:10
+    #7 0x5d96ab4321c3 in nasm_parser_parse /src/yasm/modules/parsers/nasm/nasm-parse.c:231:18
+    #8 0x5d96ab431a6e in nasm_do_parse /src/yasm/modules/parsers/nasm/nasm-parser.c:66:5
+    #9 0x5d96ab431a6e in nasm_parser_do_parse /src/yasm/modules/parsers/nasm/nasm-parser.c:83:5
+    #10 0x5d96ab3f4619 in do_assemble /src/yasm/frontends/yasm/yasm.c:641:5
+    #11 0x7af3e64d4082 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x24082) (BuildId: 5792732f783158c66fb4f3756458ca24e46e827d)
+
+DEDUP_TOKEN: __interceptor_malloc--def_xmalloc--yasm__xstrndup
+SUMMARY: AddressSanitizer: heap-buffer-overflow /src/yasm/modules/parsers/nasm/nasm-token.re:82:13 in handle_dot_label
+Shadow bytes around the buggy address:
+  0x7713e57e6800: fa fa fd fa fa fa fd fd fa fa fd fd fa fa fd fa
+  0x7713e57e6880: fa fa fd fd fa fa 04 fa fa fa fd fd fa fa fd fd
+  0x7713e57e6900: fa fa fd fd fa fa 00 fa fa fa fd fd fa fa fd fd
+  0x7713e57e6980: fa fa fd fd fa fa 04 fa fa fa fd fd fa fa fd fd
+  0x7713e57e6a00: fa fa fd fd fa fa fd fa fa fa fd fa fa fa fd fa
+=>0x7713e57e6a80: fa fa 07 fa fa fa fd fd fa fa fd fd fa fa[03]fa
+  0x7713e57e6b00: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x7713e57e6b80: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x7713e57e6c00: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x7713e57e6c80: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x7713e57e6d00: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+Shadow byte legend (one shadow byte represents 8 application bytes):
+  Addressable:           00
+  Partially addressable: 01 02 03 04 05 06 07 
+  Heap left redzone:       fa
+  Freed heap region:       fd
+  Stack left redzone:      f1
+  Stack mid redzone:       f2
+  Stack right redzone:     f3
+  Stack after return:      f5
+  Stack use after scope:   f8
+  Global redzone:          f9
+  Global init order:       f6
+  Poisoned by user:        f7
+  Container overflow:      fc
+  Array cookie:            ac
+  Intra object redzone:    bb
+  ASan internal:           fe
+  Left alloca redzone:     ca
+  Right alloca redzone:    cb
+==11==ABORTING
+
+INFO:__main__:Running: docker run --privileged --shm-size=2g --platform linux/amd64 --rm -e HELPER=True -e ARCHITECTURE=x86_64 -v /home/qzt/patchagent-campaign-20261117/oss-fuzz/build/out/yasm241:/out -v /home/qzt/patchagent-campaign-20261117/cases/yasm243/poc.asm:/testcase -t gcr.io/oss-fuzz-base/base-runner:latest reproduce yasm_fuzzer -runs=100 -detect_leaks=0.

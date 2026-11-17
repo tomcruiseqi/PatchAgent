@@ -1,0 +1,53 @@
+initializing yasm243 with glm-5.3
+[2026-11-17 10:39:41] [🔄] Replaying yasm241/yasm_fuzzer with PoC /home/qzt/patchagent-campaign-20261117/cases/yasm243/poc.asm and patch d41d8cd98f00b204e9800998ecf8427e-address
+[2026-11-17 10:39:45] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-token.re -> modules/parsers/nasm/nasm-token.re
+[2026-11-17 10:39:45] [🚧] Incomplete file path: /src/yasm/modules/parsers/nasm/nasm-token.re:0:0 vs /src/yasm/modules/parsers/nasm/nasm-token.re
+[2026-11-17 10:39:45] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-token.re -> modules/parsers/nasm/nasm-token.re
+[2026-11-17 10:39:45] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-parse.c -> modules/parsers/nasm/nasm-parse.c
+[2026-11-17 10:39:45] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-parse.c -> modules/parsers/nasm/nasm-parse.c
+[2026-11-17 10:39:45] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-parse.c -> modules/parsers/nasm/nasm-parse.c
+[2026-11-17 10:39:45] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-parser.c -> modules/parsers/nasm/nasm-parser.c
+[2026-11-17 10:39:45] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-parser.c -> modules/parsers/nasm/nasm-parser.c
+[2026-11-17 10:39:45] [🔍] Guessed relpath /src/yasm/frontends/yasm/yasm.c -> frontends/yasm/yasm.c
+[2026-11-17 10:39:45] [🔍] Guessed relpath /src/llvm-project/compiler-rt/lib/asan/asan_malloc_linux.cpp -> None
+[2026-11-17 10:39:45] [🔍] Guessed relpath /src/yasm/libyasm/xmalloc.c -> libyasm/xmalloc.c
+[2026-11-17 10:39:45] [🔍] Guessed relpath /src/yasm/libyasm/xstrdup.c -> libyasm/xstrdup.c
+[2026-11-17 10:39:45] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-token.re -> modules/parsers/nasm/nasm-token.re
+[2026-11-17 10:39:45] [🚧] Incomplete file path: /src/yasm/modules/parsers/nasm/nasm-token.re:0:0 vs /src/yasm/modules/parsers/nasm/nasm-token.re
+[2026-11-17 10:39:45] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-token.re -> modules/parsers/nasm/nasm-token.re
+[2026-11-17 10:39:45] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-parse.c -> modules/parsers/nasm/nasm-parse.c
+[2026-11-17 10:39:45] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-parse.c -> modules/parsers/nasm/nasm-parse.c
+[2026-11-17 10:39:45] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-parse.c -> modules/parsers/nasm/nasm-parse.c
+[2026-11-17 10:39:45] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-parser.c -> modules/parsers/nasm/nasm-parser.c
+[2026-11-17 10:39:45] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-parser.c -> modules/parsers/nasm/nasm-parser.c
+[2026-11-17 10:39:45] [🔍] Guessed relpath /src/yasm/frontends/yasm/yasm.c -> frontends/yasm/yasm.c
+initial status: Bug detected
+[2026-11-17 10:39:46] [🤖] Applying CommonCLikeAgent (model: glm-5.3, temp: 0, ah: False, #ce: 0)
+[2026-11-17 10:39:48] [📞] viewcode(path=src/yasm/modules/parsers/nasm/nasm-token.re, start_line=60, end_line=110)
+[2026-11-17 10:39:48] [🔍] Guessed relpath src/yasm/modules/parsers/nasm/nasm-token.re -> modules/parsers/nasm/nasm-token.re
+[2026-11-17 10:40:14] [📞] validate(patch=--- a/src/yasm/modules/parsers/nasm/nasm-token.re
++++ b/src/yasm/modules/parsers/nasm/nasm-token.re
+@@ -75,10 +75,12 @@ handle_dot_label(YYSTYPE *lvalp, char *tok, size_t toklen, size_t zeropos,
+ {
+     /* check for special non-local labels like ..start */
+     if (tok[zeropos+1] == '.') {
+-        lvalp->str_val = yasm__xstrndup(tok+zeropos+(parser_nasm->tasm?2:0),
+-            toklen-zeropos-(parser_nasm->tasm?2:0));
++        size_t len = toklen-zeropos-(parser_nasm->tasm?2:0);
++        lvalp->str_val = yasm__xstrndup(tok+zeropos+(parser_nasm->tasm?2:0),
++            len);
+         /* check for special non-local ..@label */
+-        if (lvalp->str_val[zeropos+2] == '@')
++        if (zeropos+2 <= len && lvalp->str_val[zeropos+2] == '@')
+             return NONLOCAL_ID;
+         return SPECIAL_ID;
+     }
+)
+[2026-11-17 10:40:14] [🩹] Formatting patch
+[2026-11-17 10:40:14] [🔍] Guessed relpath src/yasm/modules/parsers/nasm/nasm-token.re -> modules/parsers/nasm/nasm-token.re
+[2026-11-17 10:40:14] [🩹] Formatting patch
+[2026-11-17 10:40:14] [🔍] Checking patch
+[2026-11-17 10:40:14] [🧱] Building yasm241 with patch bd766219642a730487ce58e42321ea6e-address
+[2026-11-17 10:40:34] [🔄] Replaying yasm241/yasm_fuzzer with PoC /home/qzt/patchagent-campaign-20261117/cases/yasm243/poc.asm and patch bd766219642a730487ce58e42321ea6e-address
+[2026-11-17 10:40:42] [🎉] Patch is found
+{"case": "yasm243", "model": "glm-5.3", "status": "patch_found", "metrics": {"model_request_count": 2, "model_response_count": 2, "model_error_callbacks": 0, "input_tokens": 5559, "output_tokens": 1689, "total_tokens": 7248, "logged_llm_entries": 2, "tool_call_count": 2, "tool_calls_by_name": {"viewcode": 1, "validate": 1}, "candidate_patch_generation_attempts": 1, "unique_candidate_patch_count": 1, "elapsed_seconds": 61.24}}

@@ -1,0 +1,51 @@
+initializing yasm243 with deepseek-flash-cyber
+[2026-11-17 09:37:32] [🔄] Replaying yasm241/yasm_fuzzer with PoC /home/qzt/patchagent-campaign-20261117/cases/yasm243/poc.asm and patch d41d8cd98f00b204e9800998ecf8427e-address
+[2026-11-17 09:37:38] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-token.re -> modules/parsers/nasm/nasm-token.re
+[2026-11-17 09:37:38] [🚧] Incomplete file path: /src/yasm/modules/parsers/nasm/nasm-token.re:0:0 vs /src/yasm/modules/parsers/nasm/nasm-token.re
+[2026-11-17 09:37:38] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-token.re -> modules/parsers/nasm/nasm-token.re
+[2026-11-17 09:37:38] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-parse.c -> modules/parsers/nasm/nasm-parse.c
+[2026-11-17 09:37:38] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-parse.c -> modules/parsers/nasm/nasm-parse.c
+[2026-11-17 09:37:38] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-parse.c -> modules/parsers/nasm/nasm-parse.c
+[2026-11-17 09:37:38] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-parser.c -> modules/parsers/nasm/nasm-parser.c
+[2026-11-17 09:37:38] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-parser.c -> modules/parsers/nasm/nasm-parser.c
+[2026-11-17 09:37:38] [🔍] Guessed relpath /src/yasm/frontends/yasm/yasm.c -> frontends/yasm/yasm.c
+[2026-11-17 09:37:38] [🔍] Guessed relpath /src/llvm-project/compiler-rt/lib/asan/asan_malloc_linux.cpp -> None
+[2026-11-17 09:37:38] [🔍] Guessed relpath /src/yasm/libyasm/xmalloc.c -> libyasm/xmalloc.c
+[2026-11-17 09:37:38] [🔍] Guessed relpath /src/yasm/libyasm/xstrdup.c -> libyasm/xstrdup.c
+[2026-11-17 09:37:38] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-token.re -> modules/parsers/nasm/nasm-token.re
+[2026-11-17 09:37:38] [🚧] Incomplete file path: /src/yasm/modules/parsers/nasm/nasm-token.re:0:0 vs /src/yasm/modules/parsers/nasm/nasm-token.re
+[2026-11-17 09:37:38] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-token.re -> modules/parsers/nasm/nasm-token.re
+[2026-11-17 09:37:38] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-parse.c -> modules/parsers/nasm/nasm-parse.c
+[2026-11-17 09:37:38] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-parse.c -> modules/parsers/nasm/nasm-parse.c
+[2026-11-17 09:37:38] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-parse.c -> modules/parsers/nasm/nasm-parse.c
+[2026-11-17 09:37:38] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-parser.c -> modules/parsers/nasm/nasm-parser.c
+[2026-11-17 09:37:38] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-parser.c -> modules/parsers/nasm/nasm-parser.c
+[2026-11-17 09:37:38] [🔍] Guessed relpath /src/yasm/frontends/yasm/yasm.c -> frontends/yasm/yasm.c
+initial status: Bug detected
+[2026-11-17 09:37:38] [🤖] Applying CommonCLikeAgent (model: deepseek-flash-cyber, temp: 0, ah: False, #ce: 0)
+[2026-11-17 09:37:40] [📞] viewcode(path=modules/parsers/nasm/nasm-token.re, start_line=60, end_line=100)
+[2026-11-17 09:37:40] [🔍] Guessed relpath modules/parsers/nasm/nasm-token.re -> modules/parsers/nasm/nasm-token.re
+[2026-11-17 09:37:42] [📞] viewcode(path=modules/parsers/nasm/nasm-token.re, start_line=100, end_line=220)
+[2026-11-17 09:37:42] [🔍] Guessed relpath modules/parsers/nasm/nasm-token.re -> modules/parsers/nasm/nasm-token.re
+[2026-11-17 09:37:44] [📞] viewcode(path=modules/parsers/nasm/nasm-token.re, start_line=220, end_line=400)
+[2026-11-17 09:37:44] [🔍] Guessed relpath modules/parsers/nasm/nasm-token.re -> modules/parsers/nasm/nasm-token.re
+[2026-11-17 09:37:51] [📞] viewcode(path=libyasm/xstrdup.c, start_line=45, end_line=80)
+[2026-11-17 09:37:51] [🔍] Guessed relpath libyasm/xstrdup.c -> libyasm/xstrdup.c
+[2026-11-17 09:37:57] [📞] validate(patch=--- a/modules/parsers/nasm/nasm-token.re
++++ b/modules/parsers/nasm/nasm-token.re
+@@ -79,7 +79,7 @@
+         lvalp->str_val = yasm__xstrndup(tok+zeropos+(parser_nasm->tasm?2:0),
+             toklen-zeropos-(parser_nasm->tasm?2:0));
+         /* check for special non-local ..@label */
+-        if (lvalp->str_val[zeropos+2] == '@')
++        if (lvalp->str_val[2] == '@')
+             return NONLOCAL_ID;
+         return SPECIAL_ID;
+     }
+)
+[2026-11-17 09:37:57] [🩹] Formatting patch
+[2026-11-17 09:37:57] [🔍] Checking patch
+[2026-11-17 09:37:57] [🧱] Building yasm241 with patch 984ce72638a86dba3f171a9564070522-address
+[2026-11-17 09:38:16] [🔄] Replaying yasm241/yasm_fuzzer with PoC /home/qzt/patchagent-campaign-20261117/cases/yasm243/poc.asm and patch 984ce72638a86dba3f171a9564070522-address
+[2026-11-17 09:38:23] [🎉] Patch is found
+{"case": "yasm243", "model": "deepseek-flash-cyber", "status": "patch_found", "metrics": {"model_request_count": 5, "model_response_count": 5, "model_error_callbacks": 0, "input_tokens": 26763, "output_tokens": 2954, "total_tokens": 29717, "logged_llm_entries": 5, "tool_call_count": 5, "tool_calls_by_name": {"viewcode": 4, "validate": 1}, "candidate_patch_generation_attempts": 1, "unique_candidate_patch_count": 1, "elapsed_seconds": 51.72}}

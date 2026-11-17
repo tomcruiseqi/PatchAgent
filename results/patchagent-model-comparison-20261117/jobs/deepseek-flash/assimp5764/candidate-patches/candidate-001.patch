@@ -1,0 +1,54 @@
+diff --git a/code/AssetLib/LWS/LWSLoader.cpp b/code/AssetLib/LWS/LWSLoader.cpp
+index 047ab0cc..3a1077fb 100644
+--- a/code/AssetLib/LWS/LWSLoader.cpp
++++ b/code/AssetLib/LWS/LWSLoader.cpp
+@@ -52,6 +52,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ #include <assimp/GenericProperty.h>
+ #include <assimp/ParsingUtils.h>
+ #include <assimp/SceneCombiner.h>
++#include <assimp/Exceptional.h>
+ #include <assimp/SkeletonMeshBuilder.h>
+ #include <assimp/fast_atof.h>
+ #include <assimp/importerdesc.h>
+@@ -76,9 +77,18 @@ static constexpr aiImporterDesc desc = {
+     "lws mot"
+ };
+ 
++// Maximum nesting depth for the recursive element parsing. This prevents
++// unbounded recursion (and the resulting stack exhaustion) on malicious or
++// malformed input containing deeply nested '{' blocks.
++static constexpr unsigned int LWS_MAX_NESTING_DEPTH = 256;
++
+ // ------------------------------------------------------------------------------------------------
+ // Recursive parsing of LWS files
+-void LWS::Element::Parse(const char *&buffer, const char *end) {
++void LWS::Element::Parse(const char *&buffer, const char *end, unsigned int depth) {
++    if (depth > LWS_MAX_NESTING_DEPTH) {
++        throw DeadlyImportError("LWS: Excessive element nesting depth");
++    }
++
+     for (; SkipSpacesAndLineEnd(&buffer, end); SkipLine(&buffer, end)) {
+ 
+         // begin of a new element with children
+@@ -121,7 +131,7 @@ void LWS::Element::Parse(const char *&buffer, const char *end) {
+ 
+         // parse more elements recursively
+         if (sub) {
+-            children.back().Parse(buffer, end);
++            children.back().Parse(buffer, end, depth + 1);
+         }
+     }
+ }
+diff --git a/code/AssetLib/LWS/LWSLoader.h b/code/AssetLib/LWS/LWSLoader.h
+index f6668824..888a9891 100644
+--- a/code/AssetLib/LWS/LWSLoader.h
++++ b/code/AssetLib/LWS/LWSLoader.h
+@@ -76,7 +76,7 @@ public:
+     std::list<Element> children;
+ 
+     //! Recursive parsing function
+-    void Parse(const char *&buffer, const char *end);
++    void Parse(const char *&buffer, const char *end, unsigned int depth = 0);
+ };
+ 
+ #define AI_LWS_MASK (0xffffffff >> 4u)

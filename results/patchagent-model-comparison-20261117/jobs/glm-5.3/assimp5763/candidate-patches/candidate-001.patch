@@ -1,0 +1,21 @@
+diff --git a/code/AssetLib/MD3/MD3Loader.cpp b/code/AssetLib/MD3/MD3Loader.cpp
+index 3dd8d9c6..f53aa7c2 100644
+--- a/code/AssetLib/MD3/MD3Loader.cpp
++++ b/code/AssetLib/MD3/MD3Loader.cpp
+@@ -384,6 +384,16 @@ void MD3Importer::ValidateHeaderOffsets() {
+         throw DeadlyImportError("Invalid MD3 header: some surfaces are outside the file");
+     }
+ 
++    if (pcHeader->OFS_TAGS + pcHeader->NUM_TAGS * sizeof(MD3::Tag) > fileSize) {
++        throw DeadlyImportError("Invalid MD3 header: some tags are outside the file");
++    }
++
++    if (pcHeader->OFS_FRAMES +
++                pcHeader->NUM_FRAMES * sizeof(MD3::Frame) >
++            fileSize) {
++        throw DeadlyImportError("Invalid MD3 header: some frames are outside the file");
++    }
++
+     if (pcHeader->NUM_FRAMES <= configFrameID)
+         throw DeadlyImportError("The requested frame is not existing the file");
+ }

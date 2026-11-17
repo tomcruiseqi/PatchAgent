@@ -1,0 +1,576 @@
+initializing assimp5764 with deepseek-flash
+[2026-11-17 09:59:21] [🔄] Replaying assimp/assimp_fuzzer with PoC /home/qzt/patchagent-campaign-20261117/cases/assimp5764/poc.bin and patch d41d8cd98f00b204e9800998ecf8427e-address
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/llvm-project/compiler-rt/lib/sanitizer_common/sanitizer_stacktrace.h -> None
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/llvm-project/compiler-rt/lib/sanitizer_common/sanitizer_stacktrace.h -> None
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/llvm-project/compiler-rt/lib/asan/asan_new_delete.cpp -> None
+[2026-11-17 09:59:28] [🔍] Guessed relpath /usr/local/include/c++/v1/__new/allocate.h -> None
+[2026-11-17 09:59:28] [🔍] Guessed relpath /usr/local/include/c++/v1/__memory/allocator.h -> None
+[2026-11-17 09:59:28] [🔍] Guessed relpath /usr/local/include/c++/v1/__memory/allocator_traits.h -> None
+[2026-11-17 09:59:28] [🔍] Guessed relpath /usr/local/include/c++/v1/__memory/allocation_guard.h -> None
+[2026-11-17 09:59:28] [🔍] Guessed relpath /usr/local/include/c++/v1/list -> None
+[2026-11-17 09:59:28] [🔍] Guessed relpath /usr/local/include/c++/v1/list -> None
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:28] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:29] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:29] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:29] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:29] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:29] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:29] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:29] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:29] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:29] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:29] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:29] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:29] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:29] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:29] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:29] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:29] [🔍] Guessed relpath /src/assimp/code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+initial status: Bug detected
+[2026-11-17 09:59:29] [🤖] Applying CommonCLikeAgent (model: deepseek-flash, temp: 0, ah: False, #ce: 0)
+[2026-11-17 09:59:31] [📞] viewcode(path=code/AssetLib/LWS/LWSLoader.cpp, start_line=60, end_line=180)
+[2026-11-17 09:59:31] [🔍] Guessed relpath code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:31] [📞] locate(symbol=Assimp::LWS::Element::Parse)
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:80:19
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:92:17
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:31] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:123:28
+[2026-11-17 09:59:32] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:80:19
+[2026-11-17 09:59:32] [🚧] Parse has multiple definitions.
+[2026-11-17 09:59:34] [📞] locate(symbol=struct LWS::Element)
+[2026-11-17 09:59:34] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/assimp5764/clangd/assimp/code/AssetLib/LWS/LWSLoader.cpp:80:10
+[2026-11-17 09:59:34] [🚧] Element has multiple definitions.
+[2026-11-17 09:59:34] [📞] viewcode(path=code/AssetLib/LWS/LWSLoader.h, start_line=1, end_line=140)
+[2026-11-17 09:59:34] [🔍] Guessed relpath code/AssetLib/LWS/LWSLoader.h -> code/AssetLib/LWS/LWSLoader.h
+[2026-11-17 09:59:37] [📞] viewcode(path=code/AssetLib/LWS/LWSLoader.cpp, start_line=40, end_line=60)
+[2026-11-17 09:59:37] [🔍] Guessed relpath code/AssetLib/LWS/LWSLoader.cpp -> code/AssetLib/LWS/LWSLoader.cpp
+[2026-11-17 09:59:41] [📞] validate(patch=--- a/code/AssetLib/LWS/LWSLoader.h
++++ b/code/AssetLib/LWS/LWSLoader.h
+@@ -76,7 +76,7 @@ class Element {
+     std::list<Element> children;
+ 
+     //! Recursive parsing function
+-    void Parse(const char *&buffer, const char *end);
++    void Parse(const char *&buffer, const char *end, unsigned int depth = 0);
+ };
+ 
+ #define AI_LWS_MASK (0xffffffff >> 4u)
+--- a/code/AssetLib/LWS/LWSLoader.cpp
++++ b/code/AssetLib/LWS/LWSLoader.cpp
+@@ -52,6 +52,7 @@
+ #include <assimp/GenericProperty.h>
+ #include <assimp/ParsingUtils.h>
+ #include <assimp/SceneCombiner.h>
++#include <assimp/Exceptional.h>
+ #include <assimp/SkeletonMeshBuilder.h>
+ #include <assimp/fast_atof.h>
+ #include <assimp/importerdesc.h>
+@@ -76,9 +77,18 @@ static constexpr aiImporterDesc desc = {
+     "lws mot"
+ };
+ 
++// Maximum nesting depth for the recursive element parsing. This prevents
++// unbounded recursion (and the resulting stack exhaustion) on malicious or
++// malformed input containing deeply nested '{' blocks.
++static constexpr unsigned int LWS_MAX_NESTING_DEPTH = 256;
++
+ // ------------------------------------------------------------------------------------------------
+ // Recursive parsing of LWS files
+-void LWS::Element::Parse(const char *&buffer, const char *end) {
++void LWS::Element::Parse(const char *&buffer, const char *end, unsigned int depth) {
++    if (depth > LWS_MAX_NESTING_DEPTH) {
++        throw DeadlyImportError("LWS: Excessive element nesting depth");
++    }
++
+     for (; SkipSpacesAndLineEnd(&buffer, end); SkipLine(&buffer, end)) {
+ 
+         // begin of a new element with children
+@@ -120,7 +130,7 @@ void LWS::Element::Parse(const char *&buffer, const char *end) {
+ 
+         // parse more elements recursively
+         if (sub) {
+-            children.back().Parse(buffer, end);
++            children.back().Parse(buffer, end, depth + 1);
+         }
+     }
+ }
+)
+[2026-11-17 09:59:41] [🩹] Formatting patch
+[2026-11-17 09:59:41] [🔍] Checking patch
+[2026-11-17 09:59:41] [🧱] Building assimp with patch 2a1792e31a255131e5ad51c14676a3fb-address
+[2026-11-17 10:00:58] [🔄] Replaying assimp/assimp_fuzzer with PoC /home/qzt/patchagent-campaign-20261117/cases/assimp5764/poc.bin and patch 2a1792e31a255131e5ad51c14676a3fb-address
+[2026-11-17 10:01:05] [🎉] Patch is found
+{"case": "assimp5764", "model": "deepseek-flash", "status": "patch_found", "metrics": {"model_request_count": 4, "model_response_count": 4, "model_error_callbacks": 0, "input_tokens": 57921, "output_tokens": 1237, "total_tokens": 59158, "logged_llm_entries": 6, "tool_call_count": 6, "tool_calls_by_name": {"viewcode": 3, "locate": 2, "validate": 1}, "candidate_patch_generation_attempts": 1, "unique_candidate_patch_count": 1, "elapsed_seconds": 104.55}}

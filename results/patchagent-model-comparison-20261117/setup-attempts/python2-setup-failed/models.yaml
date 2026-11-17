@@ -1,0 +1,43 @@
+models:
+  - id: deepseek-flash-cyber
+    name: DeepSeek Flash Cyber
+    provider: deepseek
+    base_url: https://api.deepseek.com/v1
+    api_key_env: DEEPSEEK_API_KEY
+    model_name: deepseek-flash-cyber
+    max_tokens: 393216
+    context_window: 1048576
+    timeout: 900
+    supports_tools: true
+    max_retries: 3
+    extra:
+      reasoning_effort: low
+      requests_per_minute: 240
+  - id: deepseek-flash
+    name: DeepSeek Flash
+    provider: openai_compatible
+    base_url: https://api.deepseek.com/v1
+    api_key_env: DEEPSEEK_API_KEY
+    model_name: deepseek-flash
+    max_tokens: 393216
+    context_window: 1048576
+    timeout: 600
+    supports_tools: true
+    max_retries: 3
+    extra:
+      reasoning_effort: low
+      requests_per_minute: 240
+  - id: glm-5.3
+    name: GLM-5.3
+    provider: openai_compatible
+    base_url: https://api.icompify.com/v1
+    api_key_env: GLM_API_KEY
+    model_name: glm-5.3
+    max_tokens: 131072
+    context_window: 1048576
+    timeout: 1200
+    supports_tools: true
+    max_retries: 3
+    extra:
+      reasoning_effort: low
+      requests_per_minute: 240

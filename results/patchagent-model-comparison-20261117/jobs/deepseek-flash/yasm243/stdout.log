@@ -1,0 +1,80 @@
+initializing yasm243 with deepseek-flash
+[2026-11-17 09:57:03] [🔄] Replaying yasm241/yasm_fuzzer with PoC /home/qzt/patchagent-campaign-20261117/cases/yasm243/poc.asm and patch d41d8cd98f00b204e9800998ecf8427e-address
+[2026-11-17 09:57:11] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-token.re -> modules/parsers/nasm/nasm-token.re
+[2026-11-17 09:57:11] [🚧] Incomplete file path: /src/yasm/modules/parsers/nasm/nasm-token.re:0:0 vs /src/yasm/modules/parsers/nasm/nasm-token.re
+[2026-11-17 09:57:11] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-token.re -> modules/parsers/nasm/nasm-token.re
+[2026-11-17 09:57:11] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-parse.c -> modules/parsers/nasm/nasm-parse.c
+[2026-11-17 09:57:11] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-parse.c -> modules/parsers/nasm/nasm-parse.c
+[2026-11-17 09:57:11] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-parse.c -> modules/parsers/nasm/nasm-parse.c
+[2026-11-17 09:57:11] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-parser.c -> modules/parsers/nasm/nasm-parser.c
+[2026-11-17 09:57:11] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-parser.c -> modules/parsers/nasm/nasm-parser.c
+[2026-11-17 09:57:11] [🔍] Guessed relpath /src/yasm/frontends/yasm/yasm.c -> frontends/yasm/yasm.c
+[2026-11-17 09:57:11] [🔍] Guessed relpath /src/llvm-project/compiler-rt/lib/asan/asan_malloc_linux.cpp -> None
+[2026-11-17 09:57:11] [🔍] Guessed relpath /src/yasm/libyasm/xmalloc.c -> libyasm/xmalloc.c
+[2026-11-17 09:57:11] [🔍] Guessed relpath /src/yasm/libyasm/xstrdup.c -> libyasm/xstrdup.c
+[2026-11-17 09:57:11] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-token.re -> modules/parsers/nasm/nasm-token.re
+[2026-11-17 09:57:11] [🚧] Incomplete file path: /src/yasm/modules/parsers/nasm/nasm-token.re:0:0 vs /src/yasm/modules/parsers/nasm/nasm-token.re
+[2026-11-17 09:57:11] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-token.re -> modules/parsers/nasm/nasm-token.re
+[2026-11-17 09:57:11] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-parse.c -> modules/parsers/nasm/nasm-parse.c
+[2026-11-17 09:57:11] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-parse.c -> modules/parsers/nasm/nasm-parse.c
+[2026-11-17 09:57:11] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-parse.c -> modules/parsers/nasm/nasm-parse.c
+[2026-11-17 09:57:11] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-parser.c -> modules/parsers/nasm/nasm-parser.c
+[2026-11-17 09:57:11] [🔍] Guessed relpath /src/yasm/modules/parsers/nasm/nasm-parser.c -> modules/parsers/nasm/nasm-parser.c
+[2026-11-17 09:57:11] [🔍] Guessed relpath /src/yasm/frontends/yasm/yasm.c -> frontends/yasm/yasm.c
+initial status: Bug detected
+[2026-11-17 09:57:11] [🤖] Applying CommonCLikeAgent (model: deepseek-flash, temp: 0, ah: False, #ce: 0)
+[2026-11-17 09:57:12] [📞] viewcode(path=modules/parsers/nasm/nasm-token.re, start_line=60, end_line=110)
+[2026-11-17 09:57:12] [🔍] Guessed relpath modules/parsers/nasm/nasm-token.re -> modules/parsers/nasm/nasm-token.re
+[2026-11-17 09:57:19] [📞] viewcode(path=modules/parsers/nasm/nasm-token.re, start_line=110, end_line=200)
+[2026-11-17 09:57:19] [🔍] Guessed relpath modules/parsers/nasm/nasm-token.re -> modules/parsers/nasm/nasm-token.re
+[2026-11-17 09:57:19] [📞] viewcode(path=modules/parsers/nasm/nasm-token.re, start_line=1, end_line=60)
+[2026-11-17 09:57:19] [🔍] Guessed relpath modules/parsers/nasm/nasm-token.re -> modules/parsers/nasm/nasm-token.re
+[2026-11-17 09:57:21] [📞] locate(symbol=handle_dot_label)
+[2026-11-17 09:57:21] [🚧] Failed to locate the symbol handle_dot_label in /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/yasm243/immutable/yasm/modules/parsers/nasm/nasm-token.re: Error parsing translation unit.
+[2026-11-17 09:57:21] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/yasm243/clangd/yasm/modules/parsers/nasm/nasm-token.re:81:12
+[2026-11-17 09:57:21] [🚧] find_definition for /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/yasm243/clangd/yasm/modules/parsers/nasm/nasm-token.re:78:25
+[2026-11-17 09:57:21] [🚧] Failed to find the definition of handle_dot_label.
+[2026-11-17 09:57:21] [📞] viewcode(path=modules/parsers/nasm/nasm-token.re, start_line=380, end_line=460)
+[2026-11-17 09:57:21] [🔍] Guessed relpath modules/parsers/nasm/nasm-token.re -> modules/parsers/nasm/nasm-token.re
+[2026-11-17 09:57:23] [📞] viewcode(path=modules/parsers/nasm/nasm-token.re, start_line=460, end_line=560)
+[2026-11-17 09:57:23] [🔍] Guessed relpath modules/parsers/nasm/nasm-token.re -> modules/parsers/nasm/nasm-token.re
+[2026-11-17 09:57:25] [📞] viewcode(path=modules/parsers/nasm/nasm-token.re, start_line=340, end_line=390)
+[2026-11-17 09:57:25] [🔍] Guessed relpath modules/parsers/nasm/nasm-token.re -> modules/parsers/nasm/nasm-token.re
+[2026-11-17 09:57:41] [📞] locate(symbol=yasm_scanner)
+[2026-11-17 09:57:41] [🚧] Failed to locate the symbol yasm_scanner in /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/yasm243/immutable/yasm/modules/parsers/nasm/nasm-token.re: Error parsing translation unit.
+[2026-11-17 09:57:41] [🚧] yasm_scanner has multiple definitions.
+[2026-11-17 09:57:41] [📞] viewcode(path=modules/parsers/nasm/nasm-token.re, start_line=560, end_line=620)
+[2026-11-17 09:57:41] [🔍] Guessed relpath modules/parsers/nasm/nasm-token.re -> modules/parsers/nasm/nasm-token.re
+[2026-11-17 09:57:43] [📞] viewcode(path=libyasm/file.h, start_line=30, end_line=60)
+[2026-11-17 09:57:43] [🔍] Guessed relpath libyasm/file.h -> libyasm/file.h
+[2026-11-17 09:57:44] [📞] locate(symbol=yasm_scanner_fill)
+[2026-11-17 09:57:44] [🚧] Failed to locate the symbol yasm_scanner_fill in /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/yasm243/immutable/yasm/modules/parsers/nasm/nasm-token.re: Error parsing translation unit.
+[2026-11-17 09:57:44] [🚧] Failed to find the definition of yasm_scanner_fill.
+[2026-11-17 09:57:46] [📞] viewcode(path=libyasm/file.c, start_line=60, end_line=120)
+[2026-11-17 09:57:46] [🔍] Guessed relpath libyasm/file.c -> libyasm/file.c
+[2026-11-17 09:57:55] [📞] viewcode(path=modules/parsers/nasm/nasm-token.re, start_line=73, end_line=90)
+[2026-11-17 09:57:55] [🔍] Guessed relpath modules/parsers/nasm/nasm-token.re -> modules/parsers/nasm/nasm-token.re
+[2026-11-17 09:57:55] [📞] locate(symbol=nasm-token.c)
+[2026-11-17 09:57:55] [🚧] Failed to extract function name from 'nasm-token.c' (result: 'nasm-token.c)'
+[2026-11-17 09:57:55] [🚧] Failed to locate the symbol nasm-token.c in /home/qzt/patchagent-campaign-20261117/results/model-comparison-20261117T091853+0800/workspaces/yasm243/immutable/yasm/modules/parsers/nasm/nasm-token.re: Error parsing translation unit.
+[2026-11-17 09:57:55] [🚧] Failed to find the definition of nasm-token.c.
+[2026-11-17 09:57:59] [📞] validate(patch=--- a/modules/parsers/nasm/nasm-token.re
++++ b/modules/parsers/nasm/nasm-token.re
+@@ -76,10 +76,10 @@
+     /* check for special non-local labels like ..start */
+     if (tok[zeropos+1] == '.') {
+         lvalp->str_val = yasm__xstrndup(tok+zeropos+(parser_nasm->tasm?2:0),
+             toklen-zeropos-(parser_nasm->tasm?2:0));
+         /* check for special non-local ..@label */
+-        if (lvalp->str_val[zeropos+2] == '@')
++        if (tok[zeropos+2] == '@')
+             return NONLOCAL_ID;
+         return SPECIAL_ID;
+     }
+)
+[2026-11-17 09:57:59] [🩹] Formatting patch
+[2026-11-17 09:57:59] [🔍] Checking patch
+[2026-11-17 09:57:59] [🧱] Building yasm241 with patch 8ff0e6894276f87b0308a2ab3d651e3b-address
+[2026-11-17 09:58:18] [🔄] Replaying yasm241/yasm_fuzzer with PoC /home/qzt/patchagent-campaign-20261117/cases/yasm243/poc.asm and patch 8ff0e6894276f87b0308a2ab3d651e3b-address
+[2026-11-17 09:58:25] [🎉] Patch is found
+{"case": "yasm243", "model": "deepseek-flash", "status": "patch_found", "metrics": {"model_request_count": 11, "model_response_count": 11, "model_error_callbacks": 0, "input_tokens": 111316, "output_tokens": 6749, "total_tokens": 118065, "logged_llm_entries": 15, "tool_call_count": 15, "tool_calls_by_name": {"viewcode": 10, "locate": 4, "validate": 1}, "candidate_patch_generation_attempts": 1, "unique_candidate_patch_count": 1, "elapsed_seconds": 82.5}}

@@ -1,0 +1,18 @@
+diff --git a/modules/parsers/nasm/nasm-token.re b/modules/parsers/nasm/nasm-token.re
+index dba7137..e6cace8 100644
+--- a/modules/parsers/nasm/nasm-token.re
++++ b/modules/parsers/nasm/nasm-token.re
+@@ -76,10 +76,11 @@ handle_dot_label(YYSTYPE *lvalp, char *tok, size_t toklen, size_t zeropos,
+ {
+     /* check for special non-local labels like ..start */
+     if (tok[zeropos+1] == '.') {
++        size_t len = toklen-zeropos-(parser_nasm->tasm?2:0);
+         lvalp->str_val = yasm__xstrndup(tok+zeropos+(parser_nasm->tasm?2:0),
+-            toklen-zeropos-(parser_nasm->tasm?2:0));
++            len);
+         /* check for special non-local ..@label */
+-        if (lvalp->str_val[zeropos+2] == '@')
++        if (zeropos+2 <= len && lvalp->str_val[zeropos+2] == '@')
+             return NONLOCAL_ID;
+         return SPECIAL_ID;
+     }
